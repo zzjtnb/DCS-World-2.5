@@ -1,0 +1,572 @@
+dialog = {
+	["children"] = {
+		["panelBottom"] = {
+			["children"] = {
+				["buttonBack"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 130,
+							["x"] = 13,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$back",
+						["tooltip"] = "Back",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "0",
+											["left"] = "0",
+											["right"] = "0",
+											["top"] = "0",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "FUI/Common/Net/Keys-v1.png",
+										["rect"] = {
+											["x1"] = "50",
+											["x2"] = "100",
+											["y1"] = "100",
+											["y2"] = "150",
+										},
+										["vertAlign"] = {
+											["type"] = "min",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "FUI/Common/Net/Keys-v1.png",
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "50",
+											["y1"] = "100",
+											["y2"] = "150",
+										},
+										["vertAlign"] = {
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["offset"] = 60,
+											["type"] = "min",
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonFly"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 132,
+							["x"] = 433,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$fly",
+						["tooltip"] = "$flyMission",
+						["visible"] = true,
+						["zindex"] = 2,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "0",
+											["left"] = "0",
+											["right"] = "0",
+											["top"] = "0",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "FUI/Common/Net/LightKeys.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "50",
+											["x2"] = "100",
+											["y1"] = "150",
+											["y2"] = "200",
+										},
+										["vertAlign"] = {
+											["type"] = "min",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "FUI/Common/Net/LightKeys.png",
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "50",
+											["y1"] = "150",
+											["y2"] = "200",
+										},
+										["vertAlign"] = {
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["offset"] = -60,
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["staticPause"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 111,
+							["x"] = 196,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "$pauseMsg",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 18,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 76,
+					["w"] = 667,
+					["x"] = 31,
+					["y"] = 693,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 40,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "background-details-1.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["rect"] = {
+									["x1"] = "0",
+									["x2"] = 5000,
+									["y1"] = "53",
+									["y2"] = "129",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelCentral"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 618,
+					["w"] = 911,
+					["x"] = 22,
+					["y"] = 58,
+				},
+				["enabled"] = true,
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelTop"] = {
+			["children"] = {
+				["buttonClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 20,
+							["x"] = 305,
+							["y"] = 12,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "Close",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "0",
+											["left"] = "0",
+											["right"] = "0",
+											["top"] = "0",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "FUI/Common/Net/Keys-v2.png",
+										["rect"] = {
+											["x1"] = "20",
+											["x2"] = "40",
+											["y1"] = "0",
+											["y2"] = "20",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "$nil$",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "FUI/Common/Net/Keys-v2.png",
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = "20",
+											["y1"] = "0",
+											["y2"] = "20",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["staticTitle"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 37,
+							["w"] = 130,
+							["x"] = 70,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["text"] = "$briefing",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans-BoldOblique.ttf",
+										["fontSize"] = 19,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 40,
+					["w"] = 355,
+					["x"] = 31,
+					["y"] = 3,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 10,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "background-details-1.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["rect"] = {
+									["x1"] = "0",
+									["x2"] = 5000,
+									["y1"] = "0",
+									["y2"] = "40",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 750,
+			["w"] = 1024,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["horzGap"] = 0,
+				["vertGap"] = 0,
+			},
+			["type"] = "border",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["insets"] = {
+				["bottom"] = "$nil$",
+				["left"] = "$nil$",
+				["right"] = "$nil$",
+				["top"] = "$nil$",
+			},
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000050",
+					},
+					["picture"] = {
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

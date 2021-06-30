@@ -1,0 +1,691 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["StaticTempl"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 842,
+							["y"] = 459,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "Static1",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["horzAlign"] = {
+											["offset"] = 10,
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["gridRoles"] = {
+					["children"] = {
+						["GridHeaderCell1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 104,
+									["x"] = 179,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["text"] = "$Unit",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkinNew",
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+						["GridHeaderCell2"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 102,
+									["x"] = 284,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["text"] = "$onBoard",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkinNew",
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+						["GridHeaderCell3"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 113,
+									["x"] = 387,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["text"] = "$country",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 3,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkinNew",
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+						["GridHeaderCell4"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 134,
+									["x"] = 501,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["text"] = "$task",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 4,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkinNew",
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+						["GridHeaderCell5"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 167,
+									["x"] = 636,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["text"] = "$groupName",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 5,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkinNew",
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+						["GridHeaderCell6"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 169,
+									["x"] = 804,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["text"] = "$playerName",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 6,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkinNew",
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+						["gridHeaderCell0"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 178,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["draggable"] = true,
+								["enabled"] = true,
+								["text"] = "$Role",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkinNew",
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 497,
+							["w"] = 973,
+							["x"] = 2,
+							["y"] = 51,
+						},
+						["enabled"] = true,
+						["fixedColumns"] = 0,
+						["horzScrollBarPageStep"] = 0,
+						["horzScrollBarStep"] = 1,
+						["rows"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["vertScrollBarPageStep"] = 0,
+						["vertScrollBarStep"] = 21,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["headerHeight"] = 34,
+							["name"] = "gridSkinNew",
+							["selectionColor"] = "0x3095ff40",
+							["vertScrollBarWidth"] = 20,
+						},
+						["skins"] = {
+							["vertScrollBar"] = {
+								["skinData"] = {
+									["params"] = {
+										["hasButtons"] = true,
+										["insets"] = {
+											["left"] = 0,
+											["right"] = 0,
+										},
+										["maxSize"] = {
+											["horz"] = 11,
+											["vert"] = 0,
+										},
+										["minSize"] = {
+											["vert"] = 11,
+										},
+									},
+									["skins"] = {
+										["decreaseButton"] = {
+											["skinData"] = {
+												["params"] = {
+													["insets"] = {
+														["left"] = 1,
+													},
+													["maxSize"] = {
+														["horz"] = 10,
+														["vert"] = 10,
+													},
+													["minSize"] = {
+														["horz"] = 10,
+														["vert"] = 10,
+													},
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_hover.png",
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_pressed.png",
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "$nil$",
+															},
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_normal.png",
+															},
+														},
+													},
+												},
+											},
+										},
+										["increaseButton"] = {
+											["skinData"] = {
+												["params"] = {
+													["insets"] = {
+														["left"] = 1,
+													},
+													["maxSize"] = {
+														["horz"] = 10,
+														["vert"] = 10,
+													},
+													["minSize"] = {
+														["horz"] = 10,
+														["vert"] = 10,
+													},
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_hover.png",
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_pressed.png",
+																["resizeToFill"] = false,
+																["tileHorizontally"] = false,
+																["tileVertically"] = false,
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_normal.png",
+															},
+														},
+													},
+												},
+											},
+										},
+										["thumb"] = {
+											["skinData"] = {
+												["params"] = {
+													["maxSize"] = {
+														["horz"] = 5,
+														["vert"] = 0,
+													},
+													["minSize"] = {
+														["horz"] = 5,
+														["vert"] = 20,
+													},
+												},
+												["states"] = {
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_hover.png",
+																["insets"] = {
+																	["bottom"] = 20,
+																	["left"] = 0,
+																	["right"] = 0,
+																	["top"] = 10,
+																},
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["left"] = 1,
+																	["right"] = 1,
+																	["top"] = 1,
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+																["insets"] = {
+																	["bottom"] = 1,
+																	["left"] = 1,
+																	["right"] = 1,
+																	["top"] = 1,
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["states"] = {
+										["released"] = {
+											[1] = {
+												["bkg"] = {
+													["center_bottom"] = "0x363636ff",
+													["center_center"] = "0x363636ff",
+													["center_top"] = "0x363636ff",
+													["left_bottom"] = "0x363636ff",
+													["left_center"] = "0x363636ff",
+													["left_top"] = "0x363636ff",
+													["right_bottom"] = "0x363636ff",
+													["right_center"] = "0x363636ff",
+													["right_top"] = "0x363636ff",
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Grid",
+				},
+				["panelBottom"] = {
+					["children"] = {
+						["btnBack"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 32,
+									["w"] = 120,
+									["x"] = 15,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$back",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["btnOk"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 32,
+									["w"] = 120,
+									["x"] = 838,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$ok",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinGreenNew",
+								},
+							},
+							["type"] = "Button",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 973,
+							["x"] = 2,
+							["y"] = 518,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50ff",
+										["center_top"] = "0x00000080",
+										["insets"] = {
+											["top"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["panelTop"] = {
+					["children"] = {
+						["btnClose"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 13,
+									["x"] = 945,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 15,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "btn_closeNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["sReplay"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 219,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "$ChoiceOfRole",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 16,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 973,
+							["x"] = 2,
+							["y"] = 2,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 570,
+					["w"] = 977,
+					["x"] = 132,
+					["y"] = 142,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50cc",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 861,
+			["w"] = 1255,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

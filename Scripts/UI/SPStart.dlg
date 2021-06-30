@@ -1,0 +1,431 @@
+dialog = {
+	["children"] = {
+		["btnCancel"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 31,
+					["w"] = 93,
+					["x"] = 356,
+					["y"] = 437,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "$cancel",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "ButtonSimSkin",
+				},
+			},
+			["type"] = "Button",
+		},
+		["btnClose"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 20,
+					["x"] = 438,
+					["y"] = 11,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "buttonSkin",
+				},
+				["states"] = {
+					["pressed"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "0",
+									["left"] = "0",
+									["right"] = "0",
+									["top"] = "0",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "FUI/Common/Net/Keys-v2.png",
+								["rect"] = {
+									["x1"] = "20",
+									["x2"] = "40",
+									["y1"] = "0",
+									["y2"] = "20",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "FUI/Common/Net/Keys-v2.png",
+								["rect"] = {
+									["x1"] = "0",
+									["x2"] = "20",
+									["y1"] = "0",
+									["y2"] = "20",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Button",
+		},
+		["btnStart"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 31,
+					["w"] = 93,
+					["x"] = 257,
+					["y"] = 437,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "$start",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "ButtonSimSkin",
+				},
+			},
+			["type"] = "Button",
+		},
+		["lbClients"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 360,
+					["w"] = 424,
+					["x"] = 25,
+					["y"] = 58,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "listBox0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["horzScrollBarHeight"] = 0,
+					["insets"] = {
+						["bottom"] = "$nil$",
+						["left"] = "$nil$",
+						["right"] = "$nil$",
+						["top"] = "$nil$",
+					},
+					["itemHeight"] = 30,
+					["name"] = "listBoxSkin",
+					["vertScrollBarWidth"] = 10,
+				},
+				["skins"] = {
+					["horzScrollBar"] = {
+						["skinData"] = {
+							["params"] = {
+								["name"] = "horzScrollBarSimSkin",
+							},
+						},
+					},
+					["item"] = {
+						["skinData"] = {
+							["states"] = {
+								["hover"] = {
+									[1] = {
+										["bkg"] = {
+											["center_center"] = "$nil$",
+											["insets"] = {
+												["bottom"] = "1",
+												["left"] = "1",
+												["right"] = "1",
+												["top"] = "1",
+											},
+										},
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = ".\\FUI\\Common\\Flags\\Canada.png",
+											["rect"] = {
+												["x1"] = "0",
+												["x2"] = "50",
+												["y1"] = "0",
+												["y2"] = "28",
+											},
+										},
+										["text"] = {
+											["color"] = "0xffffffff",
+											["fontSize"] = 16,
+											["horzAlign"] = {
+												["offset"] = 60,
+											},
+										},
+									},
+									[2] = {
+										["bkg"] = {
+											["center_bottom"] = "0xcec870ff",
+											["center_top"] = "0xcec870ff",
+											["insets"] = {
+												["bottom"] = "1",
+												["left"] = "1",
+												["right"] = "1",
+												["top"] = "1",
+											},
+											["left_bottom"] = "0xcec870ff",
+											["left_center"] = "0xcec870ff",
+											["left_top"] = "0xcec870ff",
+											["right_bottom"] = "0xcec870ff",
+											["right_center"] = "0xcec870ff",
+											["right_top"] = "0xcec870ff",
+										},
+										["picture"] = {
+											["color"] = "0xffffffff",
+											["file"] = ".\\FUI\\Common\\Flags\\Canada.png",
+											["rect"] = {
+												["x1"] = "0",
+												["x2"] = "50",
+												["y1"] = "0",
+												["y2"] = "28",
+											},
+										},
+										["text"] = {
+											["color"] = "0xffffffff",
+											["font"] = "DejaVuLGCSansCondensed.ttf",
+											["fontSize"] = 16,
+											["horzAlign"] = {
+												["offset"] = 60,
+												["type"] = "min",
+											},
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["insets"] = {
+												["bottom"] = "1",
+												["left"] = "1",
+												["right"] = "1",
+												["top"] = "1",
+											},
+										},
+										["picture"] = {
+											["file"] = ".\\FUI\\Common\\Flags\\Canada.png",
+											["horzAlign"] = {
+												["offset"] = 0,
+											},
+											["rect"] = {
+												["x1"] = "0",
+												["x2"] = "50",
+												["y1"] = "0",
+												["y2"] = "28",
+											},
+											["size"] = {
+												["horz"] = "$nil$",
+												["vert"] = "$nil$",
+											},
+										},
+										["text"] = {
+											["color"] = "0xcec870ff",
+											["fontSize"] = 16,
+											["horzAlign"] = {
+												["offset"] = 60,
+											},
+										},
+									},
+									[2] = {
+										["bkg"] = {
+											["center_bottom"] = "0xcec870ff",
+											["center_center"] = "$nil$",
+											["center_top"] = "0xcec870ff",
+											["insets"] = {
+												["bottom"] = "1",
+												["left"] = "1",
+												["right"] = "1",
+												["top"] = "1",
+											},
+											["left_bottom"] = "0xcec870ff",
+											["left_center"] = "0xcec870ff",
+											["left_top"] = "0xcec870ff",
+											["right_bottom"] = "0xcec870ff",
+											["right_center"] = "0xcec870ff",
+											["right_top"] = "0xcec870ff",
+										},
+										["picture"] = {
+											["file"] = ".\\FUI\\Common\\Flags\\Canada.png",
+											["horzAlign"] = {
+												["offset"] = 0,
+											},
+											["rect"] = {
+												["x1"] = "0",
+												["x2"] = "50",
+												["y1"] = "0",
+												["y2"] = "28",
+											},
+											["size"] = {
+												["horz"] = "$nil$",
+												["vert"] = "$nil$",
+											},
+										},
+										["text"] = {
+											["color"] = "0xffffffff",
+											["fontSize"] = 16,
+											["horzAlign"] = {
+												["offset"] = 60,
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["vertScrollBar"] = {
+						["skinData"] = {
+							["params"] = {
+								["name"] = "vertScrollBarSimSkin",
+							},
+						},
+					},
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "0x00000046",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ListBox",
+		},
+		["sRoles"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 400,
+					["x"] = 17,
+					["y"] = 15,
+				},
+				["enabled"] = true,
+				["text"] = "$chooseRole",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xcec870ff",
+								["fontSize"] = 16,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 473,
+			["w"] = 475,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "Roles Dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+					["picture"] = {
+						["color"] = "0xffffffff",
+						["file"] = ".\\MissionEditor\\themes\\main\\images\\open-file-dialog-window-2.png",
+						["rect"] = {
+							["x1"] = "0",
+							["x2"] = "475",
+							["y1"] = "0",
+							["y2"] = "473",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

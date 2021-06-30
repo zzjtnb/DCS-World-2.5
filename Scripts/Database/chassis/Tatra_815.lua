@@ -1,0 +1,23 @@
+-- Tatra 815 8x8 chassis
+GT_t.CH_t.TATRA_815 = {
+	life = 2,
+	mass = 29250,
+	length = 10.156,
+	width = 3.0,
+	max_road_velocity = 22.22,
+	max_slope = 0.20,
+	engine_power = 253.7,
+	fordingDepth = 1.2,
+	max_vert_obstacle = 0.4,
+	max_acceleration = 0.925926,
+	min_turn_radius = 23.0,
+	X_gear_1 = 2.7,
+	Y_gear_1 = 0,
+	Z_gear_1 = 1.04,
+	X_gear_2 = -3.2,
+	Y_gear_2 = 0,
+	Z_gear_2 = 1.04,
+	gear_type = GT_t.GEAR_TYPES.WHEELS,
+	r_max = 0.72,
+	armour_thickness = 0.005,
+}

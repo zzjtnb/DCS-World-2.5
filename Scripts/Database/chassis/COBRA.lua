@@ -1,0 +1,23 @@
+-- APC Otocar Cobra
+GT_t.CH_t.COBRA = {
+	life = 1.8,
+	mass = 6200,
+	length = 5.23,
+	width = 2.22,
+	max_road_velocity = 32,
+	max_slope = 0.47,
+	engine_power = 190,
+	fordingDepth = 1.9,
+	max_vert_obstacle = 0.32,
+	max_acceleration = 1.1,
+	min_turn_radius = 8.5,
+	X_gear_1 = 1.9,
+	Y_gear_1 = 0,
+	Z_gear_1 = 0.9,
+	X_gear_2 = -1.65,
+	Y_gear_2 = 0,
+	Z_gear_2 = 0.9,
+	gear_type = GT_t.GEAR_TYPES.WHEELS,
+	r_max = 0.5,
+	armour_thickness = 0.010,
+}

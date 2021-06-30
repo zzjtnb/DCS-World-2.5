@@ -1,0 +1,2007 @@
+dialog = {
+	["children"] = {
+		["AIRPLANE"] = {
+			["children"] = {
+				["FLP"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 0,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "FLP:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["FLPVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 35,
+							["x"] = 33,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "100%",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 73,
+					["x"] = 1003,
+					["y"] = 1,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["AOA"] = {
+			["children"] = {
+				["AOA"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "AOA:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["AOAVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 35,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "13°",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["G"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "G:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["GVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 35,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "+3",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 66,
+					["x"] = 861,
+					["y"] = 1,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["GWEAPON"] = {
+			["children"] = {
+				["G"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "G:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["GVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 35,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "+3",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 66,
+					["x"] = 861,
+					["y"] = 49,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["HEADINGLOCATION"] = {
+			["children"] = {
+				["HEADING"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 33,
+							["x"] = 4,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "КУРС:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["HEADINGVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 134,
+							["x"] = 37,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "173°M(SSW)",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["LOCATION"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 7,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "LOC:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["LOCATIONVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 154,
+							["x"] = 37,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "55°45.35'N, 37°37.06'E",
+						["tooltip"] = "Speed",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 190,
+					["x"] = 603,
+					["y"] = 1,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["HELICOPTER"] = {
+			["children"] = {
+				["TRQ"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "TRQ:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["TRQVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 35,
+							["x"] = 35,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "100%",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 73,
+					["x"] = 1003,
+					["y"] = 49,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["PROPENGINE"] = {
+			["children"] = {
+				["MPR"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "MPR:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["MPRVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 35,
+							["x"] = 35,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "100%",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["PRP"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "PRP:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["PRPVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 35,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "12",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 73,
+					["x"] = 1077,
+					["y"] = 1,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["PTCHBANK"] = {
+			["children"] = {
+				["BANK"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "BNK:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["BANKVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 35,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "13°",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["PITCH"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "PTH:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["PITCHVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 35,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "13°",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 66,
+					["x"] = 794,
+					["y"] = 1,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["RPM"] = {
+			["children"] = {
+				["RPM"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "RPM:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["RPM_1_VALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 35,
+							["x"] = 35,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "100%",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["RPM_2_VALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 35,
+							["x"] = 35,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "100%",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 74,
+					["x"] = 928,
+					["y"] = 1,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["RPMSINGLE"] = {
+			["children"] = {
+				["RPM"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 3,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "RPM:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["RPM_1_VALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 35,
+							["x"] = 35,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "100%",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 74,
+					["x"] = 928,
+					["y"] = 49,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["file"] = "",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["SPD_ALT"] = {
+			["children"] = {
+				["ALT"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 5,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "ALT:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["ALTUNITS"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 82,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "FT",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["ALTVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 45,
+							["x"] = 35,
+							["y"] = 13,
+						},
+						["enabled"] = true,
+						["text"] = "100000",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["SPD"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 36,
+							["x"] = 2,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "Vист:",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["SPDUNITS"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 30,
+							["x"] = 82,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "KPH",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xc8c8c8ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["SPDVALUE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 42,
+							["x"] = 37,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "3000",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 110,
+					["x"] = 492,
+					["y"] = 1,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_center"] = "0xafadad80",
+								["right_center"] = "0xafadad80",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["TIME_DATE"] = {
+			["children"] = {
+				["CAMERA"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 65,
+							["x"] = -5,
+							["y"] = 14,
+						},
+						["enabled"] = true,
+						["text"] = "F3",
+						["tooltip"] = "CAMERA",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xff4747ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["DATE"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 70,
+							["x"] = 56,
+							["y"] = 14,
+						},
+						["enabled"] = true,
+						["text"] = "31/07/2015",
+						["tooltip"] = "DATE",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["SIMSPEED"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 65,
+							["x"] = 3,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "(II/F)(1/20)",
+						["tooltip"] = "TIME",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xff4747ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["TIME"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 50,
+							["x"] = 75,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "12:00:00",
+						["tooltip"] = "TIME",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["horzAlign"] = {
+											["type"] = "max",
+										},
+										["lineHeight"] = 0,
+										["shadowColor"] = "0x00000000",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 29,
+					["w"] = 128,
+					["x"] = 1151,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["anchorInfos"] = {
+						},
+						["count"] = 0,
+					},
+					["type"] = "anchor",
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["UNIT"] = {
+			["children"] = {
+				["FLAG"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 53,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["picture"] = {
+										["color"] = "0xffffffff",
+										["file"] = "FUI/Common/Flags/Russia.png",
+										["horzAlign"] = {
+											["type"] = "stretch",
+										},
+										["rect"] = {
+											["x1"] = "0",
+											["x2"] = 53,
+											["y1"] = "0",
+											["y2"] = 29,
+										},
+										["vertAlign"] = {
+											["type"] = "stretch",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["UNIT"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 15,
+							["w"] = 440,
+							["x"] = 53,
+							["y"] = 7,
+						},
+						["enabled"] = true,
+						["text"] = "A-10A(=[PILOT]=)LONG CHINESE CHARACTERS STRING WITH LOT OF DATA",
+						["tooltip"] = "Unit",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 29,
+					["w"] = 488,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0xffffff00",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 143,
+			["w"] = 1280,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = false,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+				},
+				["count"] = 0,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "STATUS BAR",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x2d3e50c8",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

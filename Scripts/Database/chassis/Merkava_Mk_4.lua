@@ -1,0 +1,25 @@
+-- Merkava Mk.IV
+GT_t.CH_t.MERKAVA_MK_4 = {
+	life = 20,
+	mass = 65000,
+	length = 7.97,
+	width = 3.72,
+	max_road_velocity = 18.0556,
+	max_slope = 0.52,
+	fordingDepth = 1.4,
+	engine_power = 1500, -- 1100 kW
+	gear_count = 5,
+	max_vert_obstacle = 1.05,
+	max_acceleration = 1.0,
+	min_turn_radius = 0.5,
+	X_gear_1 = 1.8,
+	Y_gear_1 = 0,
+	Z_gear_1 = 1.5,
+	X_gear_2 = -1.8,
+	Y_gear_2 = 0,
+	Z_gear_2 = 1.5,
+	gear_type = GT_t.GEAR_TYPES.TRACKS,
+	r_max = 0.33,
+	r_track = 0.33,
+	armour_thickness = 0.125,
+}

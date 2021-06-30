@@ -1,0 +1,250 @@
+dialog = {
+	["params"] = {
+		["bounds"] = {
+			["h"] = 24,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["insets"] = {
+				["top"] = 2,
+			},
+			["maxSize"] = {
+				["vert"] = 24,
+			},
+			["minSize"] = {
+				["horz"] = "$nil$",
+				["vert"] = 24,
+			},
+			["name"] = "windowSkin",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["params"] = {
+						["insets"] = {
+							["bottom"] = "$nil$",
+							["left"] = "$nil$",
+							["right"] = "$nil$",
+							["top"] = "$nil$",
+						},
+					},
+					["skins"] = {
+						["closeButton"] = {
+							["skinData"] = {
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffff80",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\closeiconme.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = 0,
+													["x2"] = 0,
+													["y1"] = 0,
+													["y2"] = 0,
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\closeiconme.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = 0,
+													["x2"] = 0,
+													["y1"] = 0,
+													["y2"] = 0,
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffe5",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\closeiconme.png",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = 0,
+													["x2"] = 0,
+													["y1"] = 0,
+													["y2"] = 0,
+												},
+												["resizeToFill"] = false,
+												["size"] = {
+													["horz"] = 0,
+													["vert"] = 0,
+												},
+												["tileHorizontally"] = false,
+												["tileVertically"] = false,
+												["vertAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffcc",
+												["file"] = "dxgui\\skins\\skinme\\images\\m1\\me\\elements\\closeiconme.png",
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["size"] = {
+													["horz"] = "$nil$",
+													["vert"] = "$nil$",
+												},
+												["userTexSampler"] = "$nil$",
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["picture"] = {
+									["color"] = "0xffffff59",
+									["file"] = "dxgui\\skins\\skinme\\images\\m1\\icons\\resize icon.png",
+									["horzAlign"] = {
+										["offset"] = 5,
+										["type"] = "min",
+									},
+									["vertAlign"] = {
+										["type"] = "middle",
+									},
+								},
+								["text"] = {
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 13,
+									["horzAlign"] = {
+										["offset"] = 30,
+									},
+									["lineHeight"] = 0,
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["picture"] = {
+									["color"] = "0xffffff59",
+									["file"] = "dxgui\\skins\\skinme\\images\\m1\\icons\\resize icon.png",
+									["horzAlign"] = {
+										["offset"] = 5,
+										["type"] = "min",
+									},
+									["rect"] = {
+										["x1"] = 0,
+										["x2"] = 0,
+										["y1"] = 0,
+										["y2"] = 0,
+									},
+									["resizeToFill"] = false,
+									["size"] = {
+										["horz"] = 0,
+										["vert"] = 0,
+									},
+									["tileHorizontally"] = false,
+									["tileVertically"] = false,
+									["userTexSampler"] = 0,
+									["vertAlign"] = {
+										["offset"] = 0,
+										["type"] = "middle",
+									},
+								},
+								["text"] = {
+									["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+									["fontSize"] = 13,
+									["horzAlign"] = {
+										["offset"] = 30,
+									},
+									["lineHeight"] = 0,
+									["lineThroughHeight"] = 1,
+									["lineThroughOffset"] = 1,
+									["vertAlign"] = {
+										["offset"] = 0,
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x2d3e50ff",
+						["file"] = "",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

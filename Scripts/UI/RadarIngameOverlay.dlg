@@ -1,0 +1,757 @@
+dialog = {
+	["children"] = {
+		["countCHF"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 32,
+					["x"] = 16,
+					["y"] = 291,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "032",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["countFLR"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 32,
+					["x"] = 16,
+					["y"] = 311,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "064",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticAlt"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 288,
+					["y"] = 16,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "3000",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = -5,
+									["type"] = "max",
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticCHF"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 78,
+					["x"] = 48,
+					["y"] = 291,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "CHF",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticECM"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 16,
+					["y"] = 222,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "ECM",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticEOS"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 16,
+					["y"] = 202,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "EOS",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticFLR"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 78,
+					["x"] = 48,
+					["y"] = 311,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "FLR",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 0,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticHeading"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 151,
+					["y"] = 16,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "130",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticIcon"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 32,
+					["w"] = 32,
+					["x"] = 209,
+					["y"] = 291,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 3,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["userTexSampler"] = 1,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticLSR"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 16,
+					["y"] = 242,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "LSR",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticMockup"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 315,
+					["w"] = 315,
+					["x"] = 16,
+					["y"] = 16,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 150,
+					["y"] = 150,
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 100,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffff87",
+								["file"] = "bazar\\textures\\avionicscommon\\gameoverlay\\radar_mockup.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticNorthMark"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 315,
+					["w"] = 315,
+					["x"] = 16,
+					["y"] = 16,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 150,
+					["y"] = 150,
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "bazar\\textures\\avionicscommon\\gameoverlay\\radar_bluegray.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticPicture"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 32,
+					["w"] = 32,
+					["x"] = 170,
+					["y"] = 291,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 4,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["horzAlign"] = {
+									["type"] = "stretch",
+								},
+								["userTexSampler"] = 1,
+								["vertAlign"] = {
+									["type"] = "stretch",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticRDR"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 16,
+					["y"] = 182,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "RDR",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticRadius"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 288,
+					["y"] = 311,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "10",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = -6,
+									["type"] = "max",
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticSpeed"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 43,
+					["x"] = 16,
+					["y"] = 16,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "1000",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["blurColor"] = "0x00000000",
+								["color"] = "0x7eb877ff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 14,
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+								["lineThroughHeight"] = 0,
+								["lineThroughOffset"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["horzGuids"] = {
+		[1] = 222,
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 512,
+			["w"] = 512,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = true,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

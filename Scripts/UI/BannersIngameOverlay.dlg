@@ -1,0 +1,673 @@
+dialog = {
+	["children"] = {
+		["panelNavigationAndCombatMode"] = {
+			["children"] = {
+				["panelCombatMode"] = {
+					["children"] = {
+						["staticCombatMode"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 180,
+									["x"] = 16,
+									["y"] = 11,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "BVR",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["bottom"] = 0,
+										["left"] = 0,
+										["right"] = 0,
+										["top"] = 0,
+									},
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x89cb8340",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 20,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffc364ff",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 20,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticCombatModeInfo1"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 237,
+									["x"] = 16,
+									["y"] = 50,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "R-27ER x 4",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["bottom"] = 0,
+										["left"] = 0,
+										["right"] = 0,
+										["top"] = 0,
+									},
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x89cb8340",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 14,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffc364ff",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 16,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticCombatModeInfo2"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 237,
+									["x"] = 16,
+									["y"] = 85,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "R-27ER x 5",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["bottom"] = 0,
+										["left"] = 0,
+										["right"] = 0,
+										["top"] = 0,
+									},
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x89cb8340",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 14,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffc364ff",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 16,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 130,
+							["w"] = 299,
+							["x"] = 292,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["layout"] = {
+							["data"] = {
+								["gap"] = 10,
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "stretch",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+							},
+							["type"] = "vert",
+						},
+						["text"] = "Panel2",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 10,
+								["left"] = 10,
+								["right"] = 0,
+								["top"] = 10,
+							},
+							["maxSize"] = {
+								["horz"] = 315,
+							},
+							["minSize"] = {
+								["horz"] = 315,
+							},
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x304a2e40",
+										["center_center"] = "0x304a2e40",
+										["center_top"] = "0x304a2e40",
+										["file"] = "bazar\\textures\\avionicscommon\\gameoverlay\\banner_bkg.png",
+										["insets"] = {
+											["bottom"] = 10,
+											["left"] = 10,
+											["right"] = 10,
+											["top"] = 10,
+										},
+										["left_bottom"] = "0x304a2e40",
+										["left_center"] = "0x304a2e40",
+										["left_top"] = "0x304a2e40",
+										["right_bottom"] = "0x304a2e40",
+										["right_center"] = "0x304a2e40",
+										["right_top"] = "0x304a2e40",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["file"] = "bazar\\textures\\avionicscommon\\gameoverlay\\banner_bkg.png",
+										["insets"] = {
+											["bottom"] = 10,
+											["left"] = 10,
+											["right"] = 10,
+											["top"] = 10,
+										},
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["panelNavigation"] = {
+					["children"] = {
+						["panelTarget"] = {
+							["children"] = {
+								["staticTarget"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 17,
+											["w"] = 237,
+											["x"] = 58,
+											["y"] = 9,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "MAYKOP-KHANSKAYA",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 1,
+									},
+									["skin"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["text"] = {
+														["color"] = "0x89cb8340",
+														["font"] = "PTM55F.ttf",
+														["fontSize"] = 14,
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["text"] = {
+														["color"] = "0xffc364ff",
+														["font"] = "PTM55F.ttf",
+														["fontSize"] = 16,
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+								["staticTargetIcon"] = {
+									["params"] = {
+										["angle"] = 0,
+										["bounds"] = {
+											["h"] = 20,
+											["w"] = 18,
+											["x"] = 13,
+											["y"] = 7,
+										},
+										["enabled"] = true,
+										["pivotPoint"] = {
+											["x"] = 0,
+											["y"] = 0,
+										},
+										["text"] = "",
+										["tooltip"] = "",
+										["visible"] = true,
+										["zindex"] = 0,
+									},
+									["skin"] = {
+										["params"] = {
+											["insets"] = {
+												["right"] = 4,
+											},
+											["name"] = "staticSkin",
+										},
+										["states"] = {
+											["released"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0xffffffff",
+														["horzAlign"] = {
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+									["type"] = "Static",
+								},
+							},
+							["params"] = {
+								["bounds"] = {
+									["h"] = 34,
+									["w"] = 248,
+									["x"] = 26,
+									["y"] = 55,
+								},
+								["enabled"] = true,
+								["layout"] = {
+									["data"] = {
+										["gap"] = 0,
+										["horzAlign"] = {
+											["offset"] = 0,
+											["type"] = "min",
+										},
+										["vertAlign"] = {
+											["offset"] = 0,
+											["type"] = "middle",
+										},
+									},
+									["type"] = "horz",
+								},
+								["text"] = "panel0",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "panelSkin",
+								},
+							},
+							["type"] = "Panel",
+						},
+						["staticInfo"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 237,
+									["x"] = 23,
+									["y"] = 108,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "359° 9999 морск.миль",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 2,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["bottom"] = 0,
+										["left"] = 0,
+										["right"] = 0,
+										["top"] = 0,
+									},
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x89cb8340",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 14,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffc364ff",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 16,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["staticTask"] = {
+							["params"] = {
+								["angle"] = 0,
+								["bounds"] = {
+									["h"] = 24,
+									["w"] = 180,
+									["x"] = 18,
+									["y"] = 14,
+								},
+								["enabled"] = true,
+								["pivotPoint"] = {
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["text"] = "LANDING",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["insets"] = {
+										["bottom"] = 0,
+										["left"] = 0,
+										["right"] = 0,
+										["top"] = 0,
+									},
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0x89cb8340",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 20,
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffc364ff",
+												["font"] = "PTM55F.ttf",
+												["fontSize"] = 20,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 150,
+							["w"] = 271,
+							["x"] = 5,
+							["y"] = 5,
+						},
+						["enabled"] = true,
+						["layout"] = {
+							["data"] = {
+								["gap"] = 10,
+								["horzAlign"] = {
+									["offset"] = 0,
+									["type"] = "stretch",
+								},
+								["vertAlign"] = {
+									["offset"] = 0,
+									["type"] = "min",
+								},
+							},
+							["type"] = "vert",
+						},
+						["text"] = "Panel2",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 10,
+								["left"] = 10,
+								["right"] = 0,
+								["top"] = 10,
+							},
+							["maxSize"] = {
+								["horz"] = 315,
+							},
+							["minSize"] = {
+								["horz"] = 315,
+							},
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x304a2e40",
+										["center_center"] = "0x304a2e40",
+										["center_top"] = "0x304a2e40",
+										["file"] = "bazar\\textures\\avionicscommon\\gameoverlay\\banner_bkg.png",
+										["insets"] = {
+											["bottom"] = 10,
+											["left"] = 10,
+											["right"] = 10,
+											["top"] = 10,
+										},
+										["left_bottom"] = "0x304a2e40",
+										["left_center"] = "0x304a2e40",
+										["left_top"] = "0x304a2e40",
+										["right_bottom"] = "0x304a2e40",
+										["right_center"] = "0x304a2e40",
+										["right_top"] = "0x304a2e40",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["file"] = "bazar\\textures\\avionicscommon\\gameoverlay\\banner_bkg.png",
+										["insets"] = {
+											["bottom"] = 10,
+											["left"] = 10,
+											["right"] = 10,
+											["top"] = 10,
+										},
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 255,
+					["w"] = 604,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+					["data"] = {
+						["gap"] = 0,
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					["type"] = "horz",
+				},
+				["text"] = "Panel1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["horzGuids"] = {
+		[1] = 3,
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 863,
+			["w"] = 601,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["gap"] = 8,
+				["horzAlign"] = {
+					["offset"] = 0,
+					["type"] = "min",
+				},
+				["vertAlign"] = {
+					["offset"] = 0,
+					["type"] = "min",
+				},
+			},
+			["type"] = "vert",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = true,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

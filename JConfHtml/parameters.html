@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Parameters</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	
+	<link rel="stylesheet" href="static/tabs.css"/>
+	<link rel="stylesheet" type="text/css" href="static/normalize_5.0.0/normalize.min.css"/>
+
+	<script type="text/javascript" src="static/jquery_3.1.1/jquery.min.js"></script>
+	<script src="static/parameters.js"></script>
+	<script src="static/tabbedcontent.js"></script>
+	<script src="static/header_generator.js"></script>
+	<script src="static/js.cookie.js"></script>
+</head>
+<body>
+
+<script>
+"use strict";
+
+$.ajaxSetup({ cache: false }); //disallows caching, so information should be new
+
+$(document).ready(()=>{generate_header_links("Parameters", "header_links");});
+$(document).ready(onReady);
+</script>
+
+<div id="header_links"></div>
+
+<br>
+
+<div id="wrap" class="wrapper">
+	<div id="tabs" class="tabscontent"/>
+</div>
+
+</body>
+</html>

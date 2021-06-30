@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Dump</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	
+	<link rel="stylesheet" type="text/css" href="/static/dump.css"/>
+	<link rel="stylesheet" type="text/css" href="static/normalize_5.0.0/normalize.min.css"/>
+	<link rel="stylesheet" href="static/fancytree-2.33.0/dist/skin-win8/ui.fancytree.min.css"/>
+	<link rel="stylesheet" href="static/plainScrollbar/plain-scrollbar.css"/>
+
+	<script type="text/javascript" src="static/jquery_3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="static/fancytree-2.33.0/dist/jquery.fancytree-all-deps.min.js"></script>
+	<script type="text/javascript" src="static/fancytree-2.33.0/dist/modules/jquery.fancytree.grid.js"></script>
+	<script type="text/javascript" src="static/fancytree-2.33.0/dist/modules/jquery.fancytree.filter.js"></script>
+	<script type="text/javascript" src="static/plainScrollbar/plain-scrollbar.js"></script>
+	<script src="static/header_generator.js"></script>
+	<script src="static/dump.js"></script>
+	<script src="static/vfs.js"></script>
+</head>
+<body>
+
+<script>
+"use strict";
+
+$.ajaxSetup({ cache: false }); //disallows caching, so information should be new
+
+$(document).ready(()=>{generate_header_links("VFS", "header_links");});
+
+</script>
+
+<div id="header_links"></div>
+
+<div>
+	<table style="width=100%;">
+		<tr>
+			<td>
+				<span class="search-name">Name search</span>
+			</td>
+			<td>
+				<input id="NameSearchField" type="text" name="search_name" placeholder="search" autocomplete="off">
+			</td>
+			<td>
+				<span>Search specificity</span>
+				<label><input type="radio" name="search_type" value="all" checked="checked">All</label>
+				<label><input type="radio" name="search_type" value="files">Files</label>
+				<label><input type="radio" name="search_type" value="folders">Folders</label>
+			</td>
+		</tr>
+			<td>
+				<span class="search-name">Archive search</span>
+			</td>
+			<td>
+				<input id="ArchSearchField" type="text" name="search_archives" placeholder="search" autocomplete="off">
+			</td>
+			<td>
+
+			</td>
+		<tr>
+
+		</tr>
+	</table>
+</div>
+<span class="matches"></span>
+<div class='fancytree-grid-container'>
+	<table id="tree" style="width:100%;">
+		<colgroup>
+			<col width="*"></col>
+			<col width="50px"></col>
+			<col width="*"></col>
+		</colgroup>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Size</th>
+				<th>Referred in archives</th>
+			</tr>
+		</thead>
+		<tbody></tbody>
+	</table>
+	<div id="verticalScrollbar" style="top:19px; height:calc(100% - 24px);"></div>
+</div>
+
+</body>
+</html>
+
+<style>
+html, body {margin: 0; height: 100%; overflow: hidden}
+.fancytree-grid-container {
+	height: 100% - 40px;
+}
+
+.fancytree-container {
+	height: 100%;
+}
+
+.search-name {
+	display: inline-block;
+	width: 120px;
+}
+
+.fancytree-ext-filter-hide span.fancytree-node.fancytree-submatch span.fancytree-title, .fancytree-ext-filter-hide tr.fancytree-submatch span.fancytree-title {
+	color: black;
+}
+</style>

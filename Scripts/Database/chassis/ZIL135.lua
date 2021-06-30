@@ -1,0 +1,23 @@
+-- ZIL-135
+GT_t.CH_t.ZIL135 = {
+	life = 3.5,
+	mass = 20000,
+	length = 9.63,
+	width = 2.8,
+	max_road_velocity = 18.0,
+	max_slope = 0.9,
+	fordingDepth = 1.3,
+	engine_power = 360,
+	max_vert_obstacle = 0.6,
+	max_acceleration = 0.925926,
+	min_turn_radius = 12.5,
+	X_gear_1 = 3.150,
+	Y_gear_1 = 0,
+	Z_gear_1 = 1.150,
+	X_gear_2 = -3.150,
+	Y_gear_2 = 0,
+	Z_gear_2 = 1.150,
+	gear_type = GT_t.GEAR_TYPES.WHEELS,
+	r_max = 0.6,
+	armour_thickness = 0.001,
+}

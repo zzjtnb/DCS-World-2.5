@@ -1,0 +1,23 @@
+-- vaz car
+GT_t.CH_t.VAZ2109 = {
+	life = 0.4,
+	mass = 945,
+	length = 4.656,
+	width = 1.689,
+	max_road_velocity = 19.4444,
+	max_slope = 0.27,
+	fordingDepth = 0.2,
+	engine_power = 64,
+	max_vert_obstacle = 1,
+	max_acceleration = 2.136,
+	min_turn_radius = 3,
+	X_gear_1 = 2.086,
+	Y_gear_1 = 0,
+	Z_gear_1 = 0.8,
+	X_gear_2 = -2.608,
+	Y_gear_2 = 0,
+	Z_gear_2 = 0.8,
+	gear_type = GT_t.GEAR_TYPES.WHEELS,
+	r_max = 0.46,
+	armour_thickness = 0.0005,
+}

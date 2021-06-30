@@ -1,0 +1,176 @@
+dialog = {
+	["children"] = {
+		["chart"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 70,
+					["w"] = 110,
+					["x"] = 11,
+					["y"] = 32,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["clipInsets"] = {
+						["bottom"] = 4,
+						["left"] = 4,
+						["right"] = 4,
+						["top"] = 4,
+					},
+					["curveColor"] = "0x7ee6ffff",
+					["curveTexture"] = "bazar\\textures\\avionicscommon\\gameoverlay\\overlay_outlined_line.tga",
+					["curveThickness"] = 8,
+					["horzGuidesColor"] = "0",
+					["horzStep"] = 7,
+					["insets"] = {
+						["left"] = 4,
+						["right"] = 4,
+					},
+					["name"] = "chartSkin",
+					["vertGuidesColor"] = "0",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x7ee6ff40",
+								["center_center"] = "$nil$",
+								["center_top"] = "0x7ee6ff40",
+								["file"] = "dxgui\\skins\\skinme\\images\\bkg\\border-2-r4.png",
+								["insets"] = {
+									["bottom"] = 4,
+									["left"] = 4,
+									["right"] = 4,
+									["top"] = 4,
+								},
+								["left_bottom"] = "0x7ee6ff40",
+								["left_center"] = "0x7ee6ff40",
+								["left_top"] = "0x7ee6ff40",
+								["right_bottom"] = "0x7ee6ff40",
+								["right_center"] = "0x7ee6ff40",
+								["right_top"] = "0x7ee6ff40",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Chart",
+		},
+		["staticCaption"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 24,
+					["w"] = 150,
+					["x"] = 8,
+					["y"] = 8,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "Current Threat",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "PTM55F.ttf",
+								["fontSize"] = 16,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticValue"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 45,
+					["w"] = 70,
+					["x"] = 125,
+					["y"] = 52,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "1,85",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 18,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 115,
+			["w"] = 185,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = true,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x2f6186cc",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

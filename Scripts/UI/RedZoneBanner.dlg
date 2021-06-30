@@ -1,0 +1,154 @@
+dialog = {
+	["children"] = {
+		["countdown"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 96,
+					["x"] = 336,
+					["y"] = 62,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "10",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0xff000079",
+								["center_center"] = "0xff0000ef",
+								["center_top"] = "0xff000079",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0xff000079",
+								["left_center"] = "0xff000079",
+								["left_top"] = "0xff000079",
+								["right_bottom"] = "0xff000079",
+								["right_center"] = "0xff000079",
+								["right_top"] = "0xff000079",
+							},
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 22,
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["warning"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 768,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "$OUT_OF_GAME_ZONE",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0xff000079",
+								["center_center"] = "0xff0000ef",
+								["center_top"] = "0xff000079",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0xff000079",
+								["left_center"] = "0xff000079",
+								["left_top"] = "0xff000079",
+								["right_bottom"] = "0xff000079",
+								["right_center"] = "0xff000079",
+								["right_top"] = "0xff000079",
+							},
+							["text"] = {
+								["color"] = "0xffffffff",
+								["font"] = "PTM75F.ttf",
+								["fontSize"] = 22,
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 111,
+			["w"] = 768,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = false,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkinTransparent",
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 384,
+	},
+}

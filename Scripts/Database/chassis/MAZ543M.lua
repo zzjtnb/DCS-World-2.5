@@ -1,0 +1,23 @@
+-- MAZ-543M -- S-300, SMERCH
+GT_t.CH_t.MAZ543M = {
+	life = 3,
+	mass = 42150,
+	length = 13.11,
+	width = 3.15,
+	max_road_velocity = 16.6667,
+	max_slope = 0.27,
+	fordingDepth = 1.1,
+	engine_power = 330,
+	max_vert_obstacle = 1,
+	max_acceleration = 1.30719,
+	min_turn_radius = 3,
+	X_gear_1 = 2.086,
+	Y_gear_1 = 0,
+	Z_gear_1 = 1.477,
+	X_gear_2 = -2.608,
+	Y_gear_2 = 0,
+	Z_gear_2 = 1.477,
+	gear_type = GT_t.GEAR_TYPES.WHEELS,
+	r_max = 0.708,
+	armour_thickness = 0.003,
+}

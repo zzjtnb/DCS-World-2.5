@@ -1,0 +1,143 @@
+{
+    "translation": {
+        "server": {
+            "search": "Search",
+            "settings": "Server settings",
+            "server": "Server",
+            "name": "Server name",
+            "password": "Password",
+            "max_players": "Max players",
+            "ip_address": "IP address",
+            "port": "Port",
+            "webport": "Web port",
+            "select_control_port": "Specify control port",
+            "checking_status": "Checking server status...",
+            "detected": "Server detected",
+            "not_responding": "Server not responding",
+            "connect": "Connect",
+            "reconnect": "Reconnect",
+            "public": "Public",
+            "loading": "Loading",
+            "active": "Server active",
+            "offline": "Server offline",
+            "need_restart": "Restart server to apply changes",
+            "integrity_check": "Integrity check",
+            "advanced_sign": "Advanced",
+            "change": "Change",
+            "current_mission": "Current mission",
+            "mission_time": "Mission time",
+            "red_progress": "Red team progress",
+            "blue_progress": "Blue team progress",
+            "pause": "Pause",
+            "paused": "Server paused",
+            "resume": "Resume",
+            "stop": "Stop",
+            "restart": "Restart",
+            "start": "Start",
+            "save": "Save",
+            "cancel": "Cancel",
+            "retry": "Retry",
+            "integrity": {
+                "settings": "Server integrity check settings",
+                "require_pure_clients": "Require pure clients",
+                "require_pure_models": "Require pure models",
+                "require_pure_textures": "Require pure textures"
+            },
+            "advanced": {
+                "show_msg_in_chat": "Show messages in the chat",
+                "kill": "Kill",
+                "takeoff_landing": "Takeoff / landing",
+                "crash": "Crash",
+                "ejecting": "Ejecting",
+                "role": "Role",
+                "allow_export_obj": "Allow object export",
+                "allow_export_sensors": "Allow sensor export",
+                "allow_export_ownship": "Allow player export",
+                "allow_change_skin": "Allow to change skins",
+                "allow_change_tailno": "Allow to change tail number",
+                "allow_screenshot": "Allow to take screenshots on clients",
+                "start_on_command": "Resume manual",
+                "start_after_load": "Resume on load",
+                "start_with_customers": "Resume with clients",
+                "max_ping": "Max ping allowed",
+                "voice_chat_server": "Voice chat"
+            }
+        },
+        "list_of_players": {
+            "list_of_players": "List of players",
+            "online": "Online",
+            "all": "All",
+            "banned": "Banned",
+            "count_players": "Count players",
+            "enter_user_login": "Enter user's login"
+        },
+        "chat": {
+            "chat": "Chat",
+            "your_message": "Your message",
+            "send": "Send"
+        },
+        "mission": {
+            "list": "List of missions",
+            "add_mission": "Add mission",
+            "delete_selected_missions": "Delete selected missions",
+            "load_mission_list": "Load mission list",
+            "save_mission_list": "Save mission list",
+            "enter_list_name": "Enter list name",
+            "add": "Add",
+            "load": "Load",
+            "save": "Save",
+            "now_running": "Now running",
+            "run": "Run",
+            "loop": "Loop",
+            "shuffle": "Shuffle",
+            "confirm_overwrite": "File with this name already exists, overwrite?"
+        },
+        "teams": {
+            "red": "Team RED",
+            "blue": "Team BLUE",
+            "score": "Score"
+        },
+        "observers": {
+            "observers": "Observers",
+            "observes": "Observer",
+            "connects": "Connecting"
+        },
+        "player": {
+            "action": "Action",
+            "ban": "Ban player",
+            "unban": "Unban player",
+            "kick": "Kick",
+            "give_privileges": "Give privileges",
+            "report_user": "Report user",
+            "kick_player": "Kick player",
+            "ban_reason": "Ban reason",
+            "kick_reason": "Kick reason",
+            "ban_duration": "Ban duration",
+            "month": "Month",
+            "week": "Week",
+            "day": "Day",
+            "hour": "Hour",
+            "ban_forever": "Ban forever",
+            "ban_btn": "Ban",
+            "user_banned": "User banned",
+            "set_server_playername": "Set host player name"
+        },
+        "right_info_block": {
+            "completed": "completed",
+            "server_data": "Server data",
+            "status": "Status",
+            "time_online": "Time online",
+            "mission": "Mission"
+        },
+        "log": {
+            "log": "Log",
+            "debug": "Debug",
+            "info": "Info",
+            "warning": "Warning",
+            "error": "Error",
+            "error_once": "Error_once",
+            "search_log": "Search log file",
+            "highlight_only": "Show only highlighted"
+        }
+    }
+}

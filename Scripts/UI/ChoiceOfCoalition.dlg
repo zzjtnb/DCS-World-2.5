@@ -1,0 +1,415 @@
+dialog = {
+	["children"] = {
+		["containerMain"] = {
+			["children"] = {
+				["btnBlue"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 180,
+							["x"] = 59,
+							["y"] = 176,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$blue",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGraybNew",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x2945a0cc",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x2945a0ff",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x2945a0ff",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x2945a0ff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnNeutrals"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 180,
+							["x"] = 59,
+							["y"] = 283,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$neutrals",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGraybNew",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x2945a0cc",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xff00ffff",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xff00ffff",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xff00ffff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnRed"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 180,
+							["x"] = 59,
+							["y"] = 121,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$red",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGraybNew",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xa02929cc",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xa02929ff",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xa02929ff",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xa02929ff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnSpectators"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 180,
+							["x"] = 59,
+							["y"] = 231,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$spectators",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGraybNew",
+						},
+					},
+					["type"] = "Button",
+				},
+				["panelBottom"] = {
+					["children"] = {
+						["btnCancel"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 32,
+									["w"] = 120,
+									["x"] = 85,
+									["y"] = 10,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$cancel",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkinRedNew",
+								},
+							},
+							["type"] = "Button",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 291,
+							["x"] = 2,
+							["y"] = 333,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x2d3e50ff",
+										["center_top"] = "0x00000080",
+										["insets"] = {
+											["top"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["panelTop"] = {
+					["children"] = {
+						["btnClose"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 13,
+									["x"] = 263,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 15,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "btn_closeNew",
+								},
+							},
+							["type"] = "Button",
+						},
+						["sReplay"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 50,
+									["w"] = 219,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["text"] = "$choiceOfCoalition",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 10,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 16,
+												["horzAlign"] = {
+													["offset"] = 15,
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 291,
+							["x"] = 2,
+							["y"] = 2,
+						},
+						["enabled"] = true,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 385,
+					["w"] = 295,
+					["x"] = 397,
+					["y"] = 150,
+				},
+				["enabled"] = true,
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50cc",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 716,
+			["w"] = 1082,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

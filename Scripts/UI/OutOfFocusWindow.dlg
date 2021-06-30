@@ -1,0 +1,100 @@
+dialog = {
+	["children"] = {
+		["staticText"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 60,
+					["w"] = 500,
+					["x"] = 17,
+					["y"] = 9,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "Window is out of focus!",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xd97031ff",
+								["font"] = "PTM55F.ttf",
+								["fontSize"] = 36,
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["shadowOffset"] = {
+									["horz"] = 1,
+									["vert"] = 1,
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 125,
+			["w"] = 621,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["gap"] = 0,
+				["horzAlign"] = {
+					["offset"] = 0,
+					["type"] = "stretch",
+				},
+				["vertAlign"] = {
+					["offset"] = 100,
+					["type"] = "min",
+				},
+			},
+			["type"] = "horz",
+		},
+		["lockFlow"] = true,
+		["modal"] = true,
+		["offscreen"] = false,
+		["overlay"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000020",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

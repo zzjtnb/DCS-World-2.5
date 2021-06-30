@@ -1,0 +1,448 @@
+dialog = {
+	["children"] = {
+		["bodyPanel"] = {
+			["children"] = {
+				["eMarkLable"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 127,
+							["w"] = 274,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["multiline"] = true,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = false,
+						["tabOrder"] = 0,
+						["text"] = "Сосредоточение войск противника в составе 2 мотострелковых рот",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxSkin",
+							["textOffset"] = {
+								["left"] = 4,
+								["top "] = 5,
+							},
+						},
+						["skins"] = {
+							["vertScrollBar"] = {
+								["skinData"] = {
+									["params"] = {
+										["maxSize"] = {
+											["horz"] = 1,
+										},
+									},
+									["states"] = {
+										["released"] = {
+											[1] = {
+												["bkg"] = {
+													["center_center"] = "$nil$",
+													["file"] = "$nil$",
+													["insets"] = {
+														["bottom"] = "$nil$",
+														["left"] = "$nil$",
+														["right"] = "$nil$",
+														["top"] = "$nil$",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans.ttf",
+										["fontSize"] = 11,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "43, 43, 43, 128",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans.ttf",
+										["lineHeight"] = 0,
+									},
+								},
+								[2] = {
+									["bkg"] = {
+										["center_center"] = "43, 43, 43, 128",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans.ttf",
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "EditBox",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 127,
+					["w"] = 274,
+					["x"] = 24,
+					["y"] = 59,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["headePanel"] = {
+			["children"] = {
+				["btnClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 13,
+							["w"] = 13,
+							["x"] = 257,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_close",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\x_red.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\x_red.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\x_red.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffb4",
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\x_red.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["btnCur"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 13,
+							["w"] = 13,
+							["x"] = 235,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 15,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_close",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\cur_.png",
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\cur_.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffff80",
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\cur_.png",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffb4",
+										["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\close\\cur_.png",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["sMarkDate"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 16,
+							["w"] = 67,
+							["x"] = 107,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["text"] = "15:59",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans.ttf",
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sMarkId"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 31,
+							["x"] = 4,
+							["y"] = 3,
+						},
+						["enabled"] = true,
+						["text"] = "123",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans.ttf",
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["sMarkUserName"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 233,
+							["x"] = 4,
+							["y"] = 18,
+						},
+						["enabled"] = true,
+						["text"] = "Long nickname w 20 c",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans.ttf",
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 34,
+					["w"] = 274,
+					["x"] = 24,
+					["y"] = 25,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x2b2b2bd8",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["static0"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 28,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "dxgui\\skins\\skinme\\images\\window\\other\\ellips.png",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 198,
+			["w"] = 306,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_bottom"] = "0x000000cc",
+						["center_center"] = "$nil$",
+						["center_top"] = "0x000000cc",
+						["left_bottom"] = "0x000000cc",
+						["left_center"] = "0x000000cc",
+						["left_top"] = "0x000000cc",
+						["right_bottom"] = "0x000000cc",
+						["right_center"] = "0x000000cc",
+						["right_top"] = "0x000000cc",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

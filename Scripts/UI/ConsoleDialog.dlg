@@ -1,0 +1,2358 @@
+dialog = {
+	["children"] = {
+		["comboBox"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 440,
+					["x"] = 60,
+					["y"] = 200,
+				},
+				["enabled"] = true,
+				["readOnly"] = false,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 10,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "comboBoxSkin",
+				},
+				["skins"] = {
+					["button"] = {
+						["skinData"] = {
+							["params"] = {
+								["insets"] = {
+									["bottom"] = 0,
+									["left"] = 0,
+									["right"] = 0,
+									["top"] = 0,
+								},
+								["maxSize"] = {
+									["horz"] = 17,
+									["vert"] = 17,
+								},
+								["minSize"] = {
+									["horz"] = 17,
+									["vert"] = 17,
+								},
+								["textLineHeight"] = 0,
+								["textWrapping"] = false,
+							},
+							["states"] = {
+								["pressed"] = {
+									[1] = {
+										["picture"] = {
+											["color"] = "0x50fac5ff",
+											["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+											["horzAlign"] = {
+												["offset"] = 0,
+											},
+											["rect"] = {
+												["x1"] = 26,
+												["x2"] = 37,
+												["y1"] = 28,
+												["y2"] = 34,
+											},
+											["vertAlign"] = {
+												["offset"] = 0,
+											},
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["picture"] = {
+											["color"] = "0xbebe64ff",
+											["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+											["horzAlign"] = {
+												["offset"] = 0,
+											},
+											["rect"] = {
+												["x1"] = 26,
+												["x2"] = 37,
+												["y1"] = 28,
+												["y2"] = 34,
+											},
+											["vertAlign"] = {
+												["offset"] = 0,
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["editBox"] = {
+						["skinData"] = {
+							["params"] = {
+								["textOffset"] = {
+									["left"] = 0,
+									["top "] = 0,
+								},
+							},
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["text"] = {
+											["bkgColor"] = "0x00000000",
+											["blurColor"] = "0x00000000",
+											["color"] = "0xffffffff",
+											["font"] = "DejaVuLGCSansCondensed.ttf",
+											["fontSize"] = 16,
+											["horzAlign"] = {
+												["offset"] = 20,
+												["type"] = "min",
+											},
+											["lineHeight"] = 0,
+											["lineThroughColor"] = "0x00000000",
+											["lineThroughHeight"] = 1,
+											["shadowColor"] = "0x00000000",
+											["vertAlign"] = {
+												["offset"] = 0,
+												["type"] = "min",
+											},
+										},
+									},
+									[2] = {
+										["text"] = {
+											["bkgColor"] = "0x00000000",
+											["blurColor"] = "0x00000000",
+											["color"] = "0xffffffff",
+											["font"] = "DejaVuLGCSansCondensed.ttf",
+											["fontSize"] = 16,
+											["horzAlign"] = {
+												["offset"] = 20,
+												["type"] = "min",
+											},
+											["lineHeight"] = 0,
+											["lineThroughColor"] = "0x00000000",
+											["lineThroughHeight"] = 1,
+											["shadowColor"] = "0x00000000",
+											["vertAlign"] = {
+												["offset"] = 0,
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["listBox"] = {
+						["skinData"] = {
+							["skins"] = {
+								["horzScrollBar"] = {
+									["skinData"] = {
+										["params"] = {
+											["decreaseButtonAlign"] = {
+												["offset"] = 0,
+											},
+											["increaseButtonAlign"] = {
+												["offset"] = 0,
+											},
+											["insets"] = {
+												["bottom"] = "1",
+												["left"] = "1",
+												["right"] = "1",
+												["top"] = "1",
+											},
+											["maxSize"] = {
+												["vert"] = 19,
+											},
+											["minSize"] = {
+												["vert"] = 19,
+											},
+										},
+										["skins"] = {
+											["decreaseButton"] = {
+												["disabled"] = {
+													["picture"] = {
+														["rect"] = {
+															["y1"] = 37,
+															["y2"] = 53,
+														},
+													},
+												},
+												["hover"] = {
+													["picture"] = {
+														["rect"] = {
+															["y1"] = 37,
+															["y2"] = 53,
+														},
+													},
+												},
+												["pressed"] = {
+													["picture"] = {
+														["rect"] = {
+															["y1"] = 55,
+															["y2"] = 71,
+														},
+													},
+												},
+												["released"] = {
+													["picture"] = {
+														["rect"] = {
+															["y1"] = 37,
+															["y2"] = 53,
+														},
+													},
+												},
+												["skinData"] = {
+													["params"] = {
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["maxSize"] = {
+															["horz"] = 19,
+															["vert"] = 19,
+														},
+														["minSize"] = {
+															["horz"] = 19,
+															["vert"] = 19,
+														},
+														["name"] = "horzScrollBarDecreaseButtonSimSkin",
+														["textLineHeight"] = 0,
+														["textWrapping"] = false,
+													},
+													["states"] = {
+														["pressed"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000000",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0x00000000",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 0,
+																		["right"] = 1,
+																		["top"] = 0,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0x00000000",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0xbebe64ff",
+																	["right_top"] = "0x00000000",
+																},
+																["picture"] = {
+																	["color"] = "0x50fac5ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																	["rect"] = {
+																		["x1"] = 27,
+																		["x2"] = 33,
+																		["y1"] = 6,
+																		["y2"] = 17,
+																	},
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000000",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0x00000000",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 0,
+																		["right"] = 1,
+																		["top"] = 0,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0x00000000",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0xbebe64ff",
+																	["right_top"] = "0x00000000",
+																},
+																["picture"] = {
+																	["color"] = "0xbebe64ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																	["rect"] = {
+																		["x1"] = 27,
+																		["x2"] = 33,
+																		["y1"] = 6,
+																		["y2"] = 17,
+																	},
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["increaseButton"] = {
+												["disabled"] = {
+													["picture"] = {
+														["rect"] = {
+															["y1"] = 37,
+															["y2"] = 53,
+														},
+													},
+												},
+												["hover"] = {
+													["picture"] = {
+														["rect"] = {
+															["y1"] = 37,
+															["y2"] = 53,
+														},
+													},
+												},
+												["pressed"] = {
+													["picture"] = {
+														["rect"] = {
+															["y1"] = 55,
+															["y2"] = 71,
+														},
+													},
+												},
+												["released"] = {
+													["picture"] = {
+														["rect"] = {
+															["y1"] = 37,
+															["y2"] = 53,
+														},
+													},
+												},
+												["skinData"] = {
+													["params"] = {
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["maxSize"] = {
+															["horz"] = 19,
+															["vert"] = 19,
+														},
+														["minSize"] = {
+															["horz"] = 19,
+															["vert"] = 19,
+														},
+														["name"] = "horzScrollBarIncreaseButtonSimSkin",
+														["textLineHeight"] = 0,
+														["textWrapping"] = false,
+													},
+													["states"] = {
+														["pressed"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000000",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0x00000000",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 1,
+																		["right"] = 0,
+																		["top"] = 0,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0xbebe64ff",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0x00000000",
+																	["right_top"] = "0x00000000",
+																},
+																["picture"] = {
+																	["color"] = "0x50fac5ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																	["rect"] = {
+																		["x1"] = 28,
+																		["x2"] = 34,
+																		["y1"] = 26,
+																		["y2"] = 37,
+																	},
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000000",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0x00000000",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 1,
+																		["right"] = 0,
+																		["top"] = 0,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0xbebe64ff",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0x00000000",
+																	["right_top"] = "0x00000000",
+																},
+																["picture"] = {
+																	["color"] = "0xbebe64ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																	["rect"] = {
+																		["x1"] = 28,
+																		["x2"] = 34,
+																		["y1"] = 26,
+																		["y2"] = 37,
+																	},
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["thumb"] = {
+												["skinData"] = {
+													["params"] = {
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["maxSize"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["minSize"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["name"] = "horzScrollBarThumbSimSkin",
+														["textLineHeight"] = 0,
+														["textWrapping"] = false,
+													},
+													["states"] = {
+														["disabled"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000000",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0x00000000",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 0,
+																		["right"] = 0,
+																		["top"] = 0,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0x00000000",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0x00000000",
+																	["right_top"] = "0x00000000",
+																},
+															},
+														},
+														["pressed"] = {
+															[1] = {
+																["picture"] = {
+																	["color"] = "0x50fac5ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "middle",
+																	},
+																	["rect"] = {
+																		["x1"] = 26,
+																		["x2"] = 33,
+																		["y1"] = 45,
+																		["y2"] = 54,
+																	},
+																	["size"] = {
+																		["horz"] = 0,
+																		["vert"] = 0,
+																	},
+																	["userTexSampler"] = 0,
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "middle",
+																	},
+																},
+															},
+														},
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0xbebe64ff",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0xbebe64ff",
+																	["file"] = "$nil$",
+																	["left_bottom"] = "0xbebe64ff",
+																	["left_center"] = "0xbebe64ff",
+																	["left_top"] = "0xbebe64ff",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0xbebe64ff",
+																	["right_center"] = "0xbebe64ff",
+																	["right_top"] = "0xbebe64ff",
+																},
+																["picture"] = {
+																	["color"] = "0xbebe64ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "middle",
+																	},
+																	["rect"] = {
+																		["x1"] = 26,
+																		["x2"] = 33,
+																		["y1"] = 45,
+																		["y2"] = 54,
+																	},
+																	["size"] = {
+																		["horz"] = 0,
+																		["vert"] = 0,
+																	},
+																	["userTexSampler"] = 0,
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "middle",
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "dxgui\\skins\\skinME\\images\\down.png",
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xbebe64ff",
+														["center_center"] = "$nil$",
+														["center_top"] = "0xbebe64ff",
+														["file"] = "$nil$",
+														["left_bottom"] = "0xbebe64ff",
+														["left_center"] = "0xbebe64ff",
+														["left_top"] = "0xbebe64ff",
+														["right_bottom"] = "0xbebe64ff",
+														["right_center"] = "0xbebe64ff",
+														["right_top"] = "0xbebe64ff",
+													},
+												},
+											},
+										},
+									},
+								},
+								["item"] = {
+									["skinData"] = {
+										["states"] = {
+											["hover"] = {
+												[1] = {
+													["bkg"] = {
+														["center_center"] = "0xffffff20",
+													},
+													["text"] = {
+														["bkgColor"] = "0x00000000",
+														["blurColor"] = "0x00000000",
+														["color"] = "0xffffffff",
+														["fontSize"] = 16,
+														["horzAlign"] = {
+															["offset"] = 5,
+														},
+														["lineHeight"] = 0,
+														["lineThroughColor"] = "0x00000000",
+														["lineThroughHeight"] = 1,
+														["shadowColor"] = "0x00000000",
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0xffffff32",
+														["center_top"] = "0x00000000",
+														["file"] = "",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+													["text"] = {
+														["bkgColor"] = "0x00000000",
+														["blur"] = 0,
+														["blurColor"] = "0x00000000",
+														["color"] = "0xffffffff",
+														["font"] = "DejaVuLGCSansCondensed.ttf",
+														["fontSize"] = 16,
+														["horzAlign"] = {
+															["offset"] = 5,
+															["type"] = "min",
+														},
+														["lineHeight"] = 0,
+														["lineThroughColor"] = "0x00000000",
+														["lineThroughHeight"] = 1,
+														["shadowColor"] = "0x00000000",
+														["shadowOffset"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["text"] = {
+														["color"] = "0xffffffff",
+														["fontSize"] = 16,
+														["horzAlign"] = {
+															["offset"] = 5,
+														},
+														["lineHeight"] = 0,
+													},
+												},
+												[2] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0xffffff40",
+														["center_top"] = "0x00000000",
+														["file"] = "",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+													["text"] = {
+														["bkgColor"] = "0x00000000",
+														["blurColor"] = "0x00000000",
+														["color"] = "0xffffffff",
+														["fontSize"] = 16,
+														["horzAlign"] = {
+															["offset"] = 5,
+														},
+														["lineHeight"] = 0,
+														["lineThroughColor"] = "0x00000000",
+														["lineThroughHeight"] = 1,
+														["shadowColor"] = "0x00000000",
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["vertScrollBar"] = {
+									["skinData"] = {
+										["params"] = {
+											["decreaseButtonAlign"] = {
+												["offset"] = 0,
+											},
+											["increaseButtonAlign"] = {
+												["offset"] = 0,
+											},
+											["insets"] = {
+												["bottom"] = "1",
+												["left"] = "1",
+												["right"] = "1",
+												["top"] = "1",
+											},
+											["maxSize"] = {
+												["horz"] = 19,
+											},
+											["minSize"] = {
+												["horz"] = 19,
+											},
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+											["thumbAlign"] = {
+												["offset"] = 0,
+											},
+										},
+										["skins"] = {
+											["decreaseButton"] = {
+												["skinData"] = {
+													["params"] = {
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["maxSize"] = {
+															["horz"] = 19,
+															["vert"] = 19,
+														},
+														["minSize"] = {
+															["horz"] = 19,
+															["vert"] = 19,
+														},
+														["name"] = "vertScrollBarDecreaseButtonSimSkin",
+														["textLineHeight"] = 0,
+														["textWrapping"] = false,
+													},
+													["states"] = {
+														["pressed"] = {
+															[1] = {
+																["picture"] = {
+																	["color"] = "0x50fac5ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																	["rect"] = {
+																		["x1"] = 26,
+																		["x2"] = 37,
+																		["y1"] = 7,
+																		["y2"] = 13,
+																	},
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0xbebe64ff",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0x00000000",
+																	["insets"] = {
+																		["bottom"] = 1,
+																		["left"] = 0,
+																		["right"] = 0,
+																		["top"] = 0,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0x00000000",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0x00000000",
+																	["right_top"] = "0x00000000",
+																},
+																["picture"] = {
+																	["color"] = "0xbebe64ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																	["rect"] = {
+																		["x1"] = 26,
+																		["x2"] = 37,
+																		["y1"] = 7,
+																		["y2"] = 13,
+																	},
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["increaseButton"] = {
+												["skinData"] = {
+													["params"] = {
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["maxSize"] = {
+															["horz"] = 17,
+															["vert"] = 17,
+														},
+														["minSize"] = {
+															["horz"] = 17,
+															["vert"] = 17,
+														},
+														["name"] = "vertScrollBarIncreaseButtonSimSkin",
+														["textLineHeight"] = 0,
+														["textWrapping"] = false,
+													},
+													["states"] = {
+														["pressed"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000000",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0xbebe64ff",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 0,
+																		["right"] = 0,
+																		["top"] = 1,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0x00000000",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0x00000000",
+																	["right_top"] = "0x00000000",
+																},
+																["picture"] = {
+																	["color"] = "0x50fac5ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																	["rect"] = {
+																		["x1"] = 26,
+																		["x2"] = 37,
+																		["y1"] = 28,
+																		["y2"] = 34,
+																	},
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000000",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0xbebe64ff",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 0,
+																		["right"] = 0,
+																		["top"] = 1,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0x00000000",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0x00000000",
+																	["right_top"] = "0x00000000",
+																},
+																["picture"] = {
+																	["color"] = "0xbebe64ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																	},
+																	["rect"] = {
+																		["x1"] = 26,
+																		["x2"] = 37,
+																		["y1"] = 28,
+																		["y2"] = 34,
+																	},
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											["thumb"] = {
+												["skinData"] = {
+													["params"] = {
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["maxSize"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["minSize"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["name"] = "vertScrollBarThumbSimSkin",
+														["textLineHeight"] = 0,
+														["textWrapping"] = false,
+													},
+													["states"] = {
+														["disabled"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0x00000000",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0x00000000",
+																	["insets"] = {
+																		["bottom"] = 0,
+																		["left"] = 0,
+																		["right"] = 0,
+																		["top"] = 0,
+																	},
+																	["left_bottom"] = "0x00000000",
+																	["left_center"] = "0x00000000",
+																	["left_top"] = "0x00000000",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0x00000000",
+																	["right_center"] = "0x00000000",
+																	["right_top"] = "0x00000000",
+																},
+															},
+														},
+														["pressed"] = {
+															[1] = {
+																["picture"] = {
+																	["color"] = "0x50fac5ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "middle",
+																	},
+																	["rect"] = {
+																		["x1"] = 4,
+																		["x2"] = 15,
+																		["y1"] = 43,
+																		["y2"] = 56,
+																	},
+																	["size"] = {
+																		["horz"] = 0,
+																		["vert"] = 0,
+																	},
+																	["userTexSampler"] = 0,
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "middle",
+																	},
+																},
+															},
+														},
+														["released"] = {
+															[1] = {
+																["bkg"] = {
+																	["center_bottom"] = "0xbebe64ff",
+																	["center_center"] = "0x00000000",
+																	["center_top"] = "0xbebe64ff",
+																	["file"] = "$nil$",
+																	["left_bottom"] = "0xbebe64ff",
+																	["left_center"] = "0xbebe64ff",
+																	["left_top"] = "0xbebe64ff",
+																	["rect"] = {
+																		["x1"] = 0,
+																		["x2"] = 0,
+																		["y1"] = 0,
+																		["y2"] = 0,
+																	},
+																	["right_bottom"] = "0xbebe64ff",
+																	["right_center"] = "0xbebe64ff",
+																	["right_top"] = "0xbebe64ff",
+																},
+																["picture"] = {
+																	["color"] = "0xbebe64ff",
+																	["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+																	["horzAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "middle",
+																	},
+																	["rect"] = {
+																		["x1"] = 4,
+																		["x2"] = 15,
+																		["y1"] = 43,
+																		["y2"] = 56,
+																	},
+																	["size"] = {
+																		["horz"] = 0,
+																		["vert"] = 0,
+																	},
+																	["userTexSampler"] = 0,
+																	["vertAlign"] = {
+																		["offset"] = 0,
+																		["type"] = "middle",
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["file"] = "dxgui\\skins\\skinME\\images\\down.png",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xbebe64ff",
+														["center_center"] = "$nil$",
+														["center_top"] = "0xbebe64ff",
+														["file"] = "$nil$",
+														["insets"] = {
+															["bottom"] = "1",
+															["left"] = "1",
+															["right"] = "1",
+															["top"] = "1",
+														},
+														["left_bottom"] = "0xbebe64ff",
+														["left_center"] = "0xbebe64ff",
+														["left_top"] = "0xbebe64ff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0xbebe64ff",
+														["right_center"] = "0xbebe64ff",
+														["right_top"] = "0xbebe64ff",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["window"] = {
+						["skinData"] = {
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "0xffffff80",
+											["center_center"] = "0x000000ff",
+											["center_top"] = "0xffffff80",
+											["file"] = "",
+											["left_bottom"] = "0xffffff80",
+											["left_center"] = "0xffffff80",
+											["left_top"] = "0xffffff80",
+											["rect"] = {
+												["x1"] = 0,
+												["x2"] = 0,
+												["y1"] = 0,
+												["y2"] = 0,
+											},
+											["right_bottom"] = "0xffffff80",
+											["right_center"] = "0xffffff80",
+											["right_top"] = "0xffffff80",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "0x000000ff",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ComboBox",
+		},
+		["listBox"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 200,
+					["w"] = 500,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "listBox0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "listBoxSkin",
+				},
+				["skins"] = {
+					["horzScrollBar"] = {
+						["skinData"] = {
+							["params"] = {
+								["decreaseButtonAlign"] = {
+									["offset"] = 0,
+								},
+								["increaseButtonAlign"] = {
+									["offset"] = 0,
+								},
+								["insets"] = {
+									["bottom"] = "1",
+									["left"] = "1",
+									["right"] = "1",
+									["top"] = "1",
+								},
+								["maxSize"] = {
+									["vert"] = 19,
+								},
+								["minSize"] = {
+									["vert"] = 19,
+								},
+							},
+							["skins"] = {
+								["decreaseButton"] = {
+									["disabled"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["hover"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["pressed"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 55,
+												["y2"] = 71,
+											},
+										},
+									},
+									["released"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 19,
+												["vert"] = 19,
+											},
+											["minSize"] = {
+												["horz"] = 19,
+												["vert"] = 19,
+											},
+											["name"] = "horzScrollBarDecreaseButtonSimSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 1,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0xbebe64ff",
+														["right_top"] = "0x00000000",
+													},
+													["picture"] = {
+														["color"] = "0x50fac5ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 27,
+															["x2"] = 33,
+															["y1"] = 6,
+															["y2"] = 17,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 1,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0xbebe64ff",
+														["right_top"] = "0x00000000",
+													},
+													["picture"] = {
+														["color"] = "0xbebe64ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 27,
+															["x2"] = 33,
+															["y1"] = 6,
+															["y2"] = 17,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["increaseButton"] = {
+									["disabled"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["hover"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["pressed"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 55,
+												["y2"] = 71,
+											},
+										},
+									},
+									["released"] = {
+										["picture"] = {
+											["rect"] = {
+												["y1"] = 37,
+												["y2"] = 53,
+											},
+										},
+									},
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 19,
+												["vert"] = 19,
+											},
+											["minSize"] = {
+												["horz"] = 19,
+												["vert"] = 19,
+											},
+											["name"] = "horzScrollBarIncreaseButtonSimSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 1,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0xbebe64ff",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+													["picture"] = {
+														["color"] = "0x50fac5ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 28,
+															["x2"] = 34,
+															["y1"] = 26,
+															["y2"] = 37,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 1,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0xbebe64ff",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+													["picture"] = {
+														["color"] = "0xbebe64ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 28,
+															["x2"] = 34,
+															["y1"] = 26,
+															["y2"] = 37,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["thumb"] = {
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["name"] = "horzScrollBarThumbSimSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0x50fac5ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 26,
+															["x2"] = 33,
+															["y1"] = 45,
+															["y2"] = 54,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xbebe64ff",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0xbebe64ff",
+														["file"] = "$nil$",
+														["left_bottom"] = "0xbebe64ff",
+														["left_center"] = "0xbebe64ff",
+														["left_top"] = "0xbebe64ff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0xbebe64ff",
+														["right_center"] = "0xbebe64ff",
+														["right_top"] = "0xbebe64ff",
+													},
+													["picture"] = {
+														["color"] = "0xbebe64ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3h.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 26,
+															["x2"] = 33,
+															["y1"] = 45,
+															["y2"] = 54,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["bkg"] = {
+											["file"] = "dxgui\\skins\\skinME\\images\\down.png",
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "0xbebe64ff",
+											["center_center"] = "$nil$",
+											["center_top"] = "0xbebe64ff",
+											["file"] = "$nil$",
+											["left_bottom"] = "0xbebe64ff",
+											["left_center"] = "0xbebe64ff",
+											["left_top"] = "0xbebe64ff",
+											["right_bottom"] = "0xbebe64ff",
+											["right_center"] = "0xbebe64ff",
+											["right_top"] = "0xbebe64ff",
+										},
+									},
+								},
+							},
+						},
+					},
+					["item"] = {
+						["skinData"] = {
+							["states"] = {
+								["hover"] = {
+									[1] = {
+										["bkg"] = {
+											["center_center"] = "$nil$",
+										},
+										["text"] = {
+											["bkgColor"] = "0x00000000",
+											["blurColor"] = "0x00000000",
+											["color"] = "0xffffffff",
+											["fontSize"] = 16,
+											["lineHeight"] = 0,
+											["lineThroughColor"] = "0x00000000",
+											["lineThroughHeight"] = 1,
+											["shadowColor"] = "0x00000000",
+											["vertAlign"] = {
+												["offset"] = 0,
+											},
+										},
+									},
+									[2] = {
+										["text"] = {
+											["bkgColor"] = "0x00000000",
+											["blur"] = 0,
+											["blurColor"] = "0x00000000",
+											["color"] = "0xffffffff",
+											["font"] = "DejaVuLGCSansCondensed.ttf",
+											["fontSize"] = 16,
+											["horzAlign"] = {
+												["offset"] = 20,
+												["type"] = "min",
+											},
+											["lineHeight"] = 0,
+											["lineThroughColor"] = "0x00000000",
+											["lineThroughHeight"] = 1,
+											["shadowColor"] = "0x00000000",
+											["shadowOffset"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["vertAlign"] = {
+												["offset"] = 0,
+												["type"] = "middle",
+											},
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["text"] = {
+											["color"] = "0xffffffff",
+											["fontSize"] = 16,
+											["lineHeight"] = 0,
+										},
+									},
+									[2] = {
+										["bkg"] = {
+											["center_center"] = "$nil$",
+										},
+										["text"] = {
+											["bkgColor"] = "0x00000000",
+											["blurColor"] = "0x00000000",
+											["color"] = "0xffffffff",
+											["fontSize"] = 16,
+											["lineHeight"] = 0,
+											["lineThroughColor"] = "0x00000000",
+											["lineThroughHeight"] = 1,
+											["shadowColor"] = "0x00000000",
+											["vertAlign"] = {
+												["offset"] = 0,
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+					["vertScrollBar"] = {
+						["skinData"] = {
+							["params"] = {
+								["decreaseButtonAlign"] = {
+									["offset"] = 0,
+								},
+								["increaseButtonAlign"] = {
+									["offset"] = 0,
+								},
+								["insets"] = {
+									["bottom"] = "1",
+									["left"] = "1",
+									["right"] = "1",
+									["top"] = "1",
+								},
+								["maxSize"] = {
+									["horz"] = 19,
+								},
+								["minSize"] = {
+									["horz"] = 19,
+								},
+								["textLineHeight"] = 0,
+								["textWrapping"] = false,
+								["thumbAlign"] = {
+									["offset"] = 0,
+								},
+							},
+							["skins"] = {
+								["decreaseButton"] = {
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 19,
+												["vert"] = 19,
+											},
+											["minSize"] = {
+												["horz"] = 19,
+												["vert"] = 19,
+											},
+											["name"] = "vertScrollBarDecreaseButtonSimSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0x50fac5ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 26,
+															["x2"] = 37,
+															["y1"] = 7,
+															["y2"] = 13,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xbebe64ff",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["insets"] = {
+															["bottom"] = 1,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+													["picture"] = {
+														["color"] = "0xbebe64ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 26,
+															["x2"] = 37,
+															["y1"] = 7,
+															["y2"] = 13,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["increaseButton"] = {
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 17,
+												["vert"] = 17,
+											},
+											["minSize"] = {
+												["horz"] = 17,
+												["vert"] = 17,
+											},
+											["name"] = "vertScrollBarIncreaseButtonSimSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["pressed"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0xbebe64ff",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 1,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+													["picture"] = {
+														["color"] = "0x50fac5ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 26,
+															["x2"] = 37,
+															["y1"] = 28,
+															["y2"] = 34,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0xbebe64ff",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 1,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+													["picture"] = {
+														["color"] = "0xbebe64ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+														},
+														["rect"] = {
+															["x1"] = 26,
+															["x2"] = 37,
+															["y1"] = 28,
+															["y2"] = 34,
+														},
+														["vertAlign"] = {
+															["offset"] = 0,
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+								["thumb"] = {
+									["skinData"] = {
+										["params"] = {
+											["insets"] = {
+												["bottom"] = 0,
+												["left"] = 0,
+												["right"] = 0,
+												["top"] = 0,
+											},
+											["maxSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["minSize"] = {
+												["horz"] = 0,
+												["vert"] = 0,
+											},
+											["name"] = "vertScrollBarThumbSimSkin",
+											["textLineHeight"] = 0,
+											["textWrapping"] = false,
+										},
+										["states"] = {
+											["disabled"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0x00000000",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0x00000000",
+														["insets"] = {
+															["bottom"] = 0,
+															["left"] = 0,
+															["right"] = 0,
+															["top"] = 0,
+														},
+														["left_bottom"] = "0x00000000",
+														["left_center"] = "0x00000000",
+														["left_top"] = "0x00000000",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0x00000000",
+														["right_center"] = "0x00000000",
+														["right_top"] = "0x00000000",
+													},
+												},
+											},
+											["pressed"] = {
+												[1] = {
+													["picture"] = {
+														["color"] = "0x50fac5ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 4,
+															["x2"] = 15,
+															["y1"] = 43,
+															["y2"] = 56,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+											["released"] = {
+												[1] = {
+													["bkg"] = {
+														["center_bottom"] = "0xbebe64ff",
+														["center_center"] = "0x00000000",
+														["center_top"] = "0xbebe64ff",
+														["file"] = "$nil$",
+														["left_bottom"] = "0xbebe64ff",
+														["left_center"] = "0xbebe64ff",
+														["left_top"] = "0xbebe64ff",
+														["rect"] = {
+															["x1"] = 0,
+															["x2"] = 0,
+															["y1"] = 0,
+															["y2"] = 0,
+														},
+														["right_bottom"] = "0xbebe64ff",
+														["right_center"] = "0xbebe64ff",
+														["right_top"] = "0xbebe64ff",
+													},
+													["picture"] = {
+														["color"] = "0xbebe64ff",
+														["file"] = "dxgui\\skins\\skinME\\images\\Keys-v3.png",
+														["horzAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+														["rect"] = {
+															["x1"] = 4,
+															["x2"] = 15,
+															["y1"] = 43,
+															["y2"] = 56,
+														},
+														["size"] = {
+															["horz"] = 0,
+															["vert"] = 0,
+														},
+														["userTexSampler"] = 0,
+														["vertAlign"] = {
+															["offset"] = 0,
+															["type"] = "middle",
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							["states"] = {
+								["disabled"] = {
+									[1] = {
+										["bkg"] = {
+											["file"] = "dxgui\\skins\\skinME\\images\\down.png",
+											["rect"] = {
+												["x1"] = 0,
+												["x2"] = 0,
+												["y1"] = 0,
+												["y2"] = 0,
+											},
+										},
+									},
+								},
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "0xbebe64ff",
+											["center_center"] = "$nil$",
+											["center_top"] = "0xbebe64ff",
+											["file"] = "$nil$",
+											["insets"] = {
+												["bottom"] = "1",
+												["left"] = "1",
+												["right"] = "1",
+												["top"] = "1",
+											},
+											["left_bottom"] = "0xbebe64ff",
+											["left_center"] = "0xbebe64ff",
+											["left_top"] = "0xbebe64ff",
+											["rect"] = {
+												["x1"] = 0,
+												["x2"] = 0,
+												["y1"] = 0,
+												["y2"] = 0,
+											},
+											["right_bottom"] = "0xbebe64ff",
+											["right_center"] = "0xbebe64ff",
+											["right_top"] = "0xbebe64ff",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "$nil$",
+								["center_center"] = "$nil$",
+								["center_top"] = "$nil$",
+								["file"] = "$nil$",
+								["insets"] = {
+									["bottom"] = "$nil$",
+									["left"] = "$nil$",
+									["right"] = "$nil$",
+									["top"] = "$nil$",
+								},
+								["left_bottom"] = "$nil$",
+								["left_center"] = "$nil$",
+								["left_top"] = "$nil$",
+								["right_bottom"] = "$nil$",
+								["right_center"] = "$nil$",
+								["right_top"] = "$nil$",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "ListBox",
+		},
+		["staticPrompt"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 60,
+					["x"] = 0,
+					["y"] = 200,
+				},
+				["enabled"] = true,
+				["text"] = "MAIN>",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 20,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x000000ff",
+							},
+							["text"] = {
+								["color"] = "0xc8c800ff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["fontSize"] = 16,
+								["horzAlign"] = {
+									["offset"] = 5,
+								},
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["offset"] = 1,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 240,
+			["w"] = 500,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+					[2] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+					},
+					[3] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+					},
+				},
+				["count"] = 3,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = true,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["states"] = {
+						["released"] = {
+							[1] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["text"] = {
+									["blur"] = "$nil$",
+									["color"] = "$nil$",
+									["font"] = "$nil$",
+									["fontSize"] = "$nil$",
+									["shadowOffset"] = {
+										["horz"] = "$nil$",
+										["vert"] = "$nil$",
+									},
+								},
+							},
+							[2] = {
+								["bkg"] = {
+									["center_center"] = "$nil$",
+								},
+								["text"] = {
+									["blur"] = "$nil$",
+									["color"] = "$nil$",
+									["font"] = "$nil$",
+									["fontSize"] = "$nil$",
+									["shadowOffset"] = {
+										["horz"] = "$nil$",
+										["vert"] = "$nil$",
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000064",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

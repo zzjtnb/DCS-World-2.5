@@ -1,0 +1,38 @@
+h1 {
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #2d3e50;
+    padding: 3px 7px 2px 7px;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    background-color: #526579;
+    color: #fff;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:hover { background-color: #b7dbf2; transition: .6s}
+
+section{
+    margin: 30px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+body{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,1186 @@
+dialog = {
+	["children"] = {
+		["Panel1"] = {
+			["children"] = {
+				["Panel1"] = {
+					["children"] = {
+						["bResources"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 157,
+									["x"] = 147,
+									["y"] = 594,
+								},
+								["enabled"] = true,
+								["tabOrder"] = 0,
+								["text"] = "$Resources",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "buttonSkin",
+								},
+								["states"] = {
+									["hover"] = {
+										[1] = {
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\std\\v2\\hover.png",
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = {
+													["bottom"] = "$nil$",
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\std\\v2\\pressed.png",
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "$nil$",
+												["file"] = "$nil$",
+												["insets"] = {
+													["bottom"] = "$nil$",
+													["left"] = "$nil$",
+													["right"] = "$nil$",
+													["top"] = "$nil$",
+												},
+											},
+											["picture"] = {
+												["color"] = "0xffffffff",
+												["file"] = "dxgui\\skins\\skinme\\images\\buttons\\std\\v2\\neutral.png",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Button",
+						},
+						["lsCoalition"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 94,
+								},
+								["enabled"] = true,
+								["text"] = "$coalition",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["lsCoordinates"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 211,
+								},
+								["enabled"] = true,
+								["text"] = "$coordinates",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["lsElevation"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 132,
+								},
+								["enabled"] = true,
+								["text"] = "$elevation",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["lsIcaoCode"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 56,
+								},
+								["enabled"] = true,
+								["text"] = "$icaocode",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["lsName"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 19,
+								},
+								["enabled"] = true,
+								["text"] = "$name",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["lsRWYLenght"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 173,
+								},
+								["enabled"] = true,
+								["text"] = "$rwylength",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["lsTacan"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 249,
+								},
+								["enabled"] = true,
+								["text"] = "$tacan",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sAtc"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 354,
+								},
+								["enabled"] = true,
+								["text"] = "$sTAtc",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sCoalition"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 88,
+								},
+								["enabled"] = true,
+								["text"] = "$sTCoalition",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sCoordinates"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 202,
+								},
+								["enabled"] = true,
+								["text"] = "$sTCoordinates",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sElevation"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 126,
+								},
+								["enabled"] = true,
+								["text"] = "$sTElevation",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sIcaoCode"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 50,
+								},
+								["enabled"] = true,
+								["text"] = "$sTIcaoCode",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sIls1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 203,
+									["y"] = 430,
+								},
+								["enabled"] = true,
+								["text"] = "$sTIls1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sIls2"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 312,
+									["y"] = 430,
+								},
+								["enabled"] = true,
+								["text"] = "$sTIls2",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sInnerndb1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 203,
+									["y"] = 544,
+								},
+								["enabled"] = true,
+								["text"] = "$sTInnerndb1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sInnerndb2"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 312,
+									["y"] = 544,
+								},
+								["enabled"] = true,
+								["text"] = "$sTInnerndb2",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sLAtc"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 362,
+								},
+								["enabled"] = true,
+								["text"] = "$atc",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sLIls"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 438,
+								},
+								["enabled"] = true,
+								["text"] = "$ils",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sLInnerNdb"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 552,
+								},
+								["enabled"] = true,
+								["text"] = "$innerndb",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sLOuterNdb"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 514,
+								},
+								["enabled"] = true,
+								["text"] = "$outerndb",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sLRpmg"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 476,
+								},
+								["enabled"] = true,
+								["text"] = "$rpmg",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sLRsbn"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 324,
+								},
+								["enabled"] = true,
+								["text"] = "$rsbn",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sLRwys"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 401,
+								},
+								["enabled"] = true,
+								["text"] = "$rwys",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sLVor"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 20,
+									["w"] = 100,
+									["x"] = 21,
+									["y"] = 287,
+								},
+								["enabled"] = true,
+								["text"] = "$vor",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed.ttf",
+												["fontSize"] = 14,
+												["lineHeight"] = 0,
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+						["sName"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 12,
+								},
+								["enabled"] = true,
+								["text"] = "$sTName",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sOuterndb1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 203,
+									["y"] = 506,
+								},
+								["enabled"] = true,
+								["text"] = "$sTOuterndb1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sOuterndb2"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 312,
+									["y"] = 506,
+								},
+								["enabled"] = true,
+								["text"] = "$sTOuterndb2",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sRpmg1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 203,
+									["y"] = 468,
+								},
+								["enabled"] = true,
+								["text"] = "$sTRpmg1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sRpmg2"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 312,
+									["y"] = 468,
+								},
+								["enabled"] = true,
+								["text"] = "$sTRpmg2",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sRsbn"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 316,
+								},
+								["enabled"] = true,
+								["text"] = "$sTRsbn",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sRwylenght"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 164,
+								},
+								["enabled"] = true,
+								["text"] = "$sTRwylenght",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sRwys1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 203,
+									["y"] = 392,
+								},
+								["enabled"] = true,
+								["text"] = "$sTRwys1",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sRwys2"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 101,
+									["x"] = 312,
+									["y"] = 392,
+								},
+								["enabled"] = true,
+								["text"] = "$sTRwys2",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sTacan"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 240,
+								},
+								["enabled"] = true,
+								["text"] = "$sTTacan",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+						["sVor"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 26,
+									["w"] = 210,
+									["x"] = 203,
+									["y"] = 278,
+								},
+								["enabled"] = true,
+								["text"] = "$sTVor",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "editBoxSkin_airdromedata",
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 637,
+							["w"] = 435,
+							["x"] = 0,
+							["y"] = 37,
+						},
+						["enabled"] = true,
+						["text"] = "Panel1",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x858a8eff",
+										["center_center"] = "0x30303180",
+										["center_top"] = "0x858a8eff",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x858a8eff",
+										["left_center"] = "0x858a8eff",
+										["left_top"] = "0x858a8eff",
+										["right_bottom"] = "0x858a8eff",
+										["right_center"] = "0x858a8eff",
+										["right_top"] = "0x858a8eff",
+									},
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = -65,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["blur"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+				["bClose"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 14,
+							["w"] = 14,
+							["x"] = 396,
+							["y"] = 8,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 5,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "btn_close",
+						},
+					},
+					["type"] = "Button",
+				},
+				["sTitle"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 33,
+							["w"] = 435,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["text"] = "$airdomeData",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x858a8eff",
+										["center_center"] = "0x282828d9",
+										["center_top"] = "0x858a8eff",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 1,
+											["right"] = 1,
+											["top"] = 1,
+										},
+										["left_bottom"] = "0x858a8eff",
+										["left_center"] = "0x858a8eff",
+										["left_top"] = "0x858a8eff",
+										["right_bottom"] = "0x858a8eff",
+										["right_center"] = "0x858a8eff",
+										["right_top"] = "0x858a8eff",
+									},
+									["picture"] = {
+										["horzAlign"] = {
+											["offset"] = -28,
+											["type"] = "min",
+										},
+									},
+									["text"] = {
+										["color"] = "0xfbb941ff",
+										["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+										["fontSize"] = 19,
+										["horzAlign"] = {
+											["offset"] = 21,
+										},
+										["lineHeight"] = 0,
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 674,
+					["w"] = 435,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["text"] = "Panel1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 674,
+			["w"] = 435,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+						["center_top"] = "0xffffffff",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

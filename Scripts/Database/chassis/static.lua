@@ -1,0 +1,23 @@
+-- static
+GT_t.CH_t.STATIC = {
+	life = 1,
+	mass = 5000,
+	length = 5,
+	width = 5,
+	max_road_velocity = 0,
+	max_slope = 0,
+	engine_power = 0,
+	max_vert_obstacle = 0,
+	max_acceleration = 0,
+	min_turn_radius = 0,
+	X_gear_1 = 0,
+	Y_gear_1 = 0,
+	Z_gear_1 = 0,
+	X_gear_2 = 0,
+	Y_gear_2 = 0,
+	Z_gear_2 = 0,
+	gear_type = GT_t.GEAR_TYPES.STATIONARY,
+	r_max = 0,
+	r_track = 0,
+	armour_thickness = 0.001,
+}

@@ -1,0 +1,1549 @@
+dialog = {
+	["children"] = {
+		["panelMode1"] = {
+			["children"] = {
+				["key"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 24,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "1",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["mode"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "NAV",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 43,
+					["x"] = 1,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelMode2"] = {
+			["children"] = {
+				["key"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 24,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "2",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["mode"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "BVR",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 43,
+					["x"] = 46,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelMode3"] = {
+			["children"] = {
+				["key"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 24,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "3",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["mode"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "VS",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 43,
+					["x"] = 91,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelMode4"] = {
+			["children"] = {
+				["key"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 24,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "4",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["mode"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "BORE",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 43,
+					["x"] = 136,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelMode5"] = {
+			["children"] = {
+				["key"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 24,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "5",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["mode"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "HMD",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 43,
+					["x"] = 181,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelMode6"] = {
+			["children"] = {
+				["key"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 24,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "6",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["mode"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "FI0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 43,
+					["x"] = 226,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+		["panelMode7"] = {
+			["children"] = {
+				["key"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 24,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "7",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["mode"] = {
+					["params"] = {
+						["angle"] = 0,
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 43,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["pivotPoint"] = {
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["text"] = "A2G",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["bottom"] = 0,
+								["left"] = 0,
+								["right"] = 0,
+								["top"] = 0,
+							},
+							["maxSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["minSize"] = {
+								["horz"] = 0,
+								["vert"] = 0,
+							},
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x62523740",
+										["center_center"] = "0x62523740",
+										["center_top"] = "0x62523740",
+										["insets"] = "$nil$",
+										["left_bottom"] = "0x62523740",
+										["left_center"] = "0x62523740",
+										["left_top"] = "0x62523740",
+										["right_bottom"] = "0x62523740",
+										["right_center"] = "0x62523740",
+										["right_top"] = "0x62523740",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x375f7bff",
+										["center_center"] = "0x375f7bff",
+										["center_top"] = "0x375f7bff",
+										["left_bottom"] = "0x375f7bff",
+										["left_center"] = "0x375f7bff",
+										["left_top"] = "0x375f7bff",
+										["right_bottom"] = "0x375f7bff",
+										["right_center"] = "0x375f7bff",
+										["right_top"] = "0x375f7bff",
+									},
+									["text"] = {
+										["color"] = "0xffc364ff",
+										["font"] = "PTM55F.ttf",
+										["fontSize"] = 16,
+										["horzAlign"] = {
+											["type"] = "middle",
+										},
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 48,
+					["w"] = 43,
+					["x"] = 271,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 48,
+			["w"] = 315,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = false,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["overlay"] = true,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 315,
+	},
+}

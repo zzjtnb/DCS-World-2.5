@@ -1,0 +1,479 @@
+dialog = {
+	["children"] = {
+		["panelButtons"] = {
+			["children"] = {
+				["buttonAudioOption"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 298,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$audioOption",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonBriefing"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 118,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$briefing",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonCancel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 58,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$resume",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x00000040",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0x00000059",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "$nil$",
+										["center_center"] = "0xb1bfc000",
+										["center_top"] = "$nil$",
+										["file"] = "$nil$",
+										["insets"] = "$nil$",
+										["left_bottom"] = "$nil$",
+										["left_center"] = "$nil$",
+										["left_top"] = "$nil$",
+										["right_bottom"] = "$nil$",
+										["right_center"] = "$nil$",
+										["right_top"] = "$nil$",
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 13,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonChoiceCaol"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 178,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$choiceCaol",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonChoiceSlot"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 148,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$choiceSlot",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonAdjustControls"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 238,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$adjustControls",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonLeaveServer"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 0,
+							["y"] = 410,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$leaveServer",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonManual"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 208,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$manual",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonQuit"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 337,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$quit",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonQuitToDesktop"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 367,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$quitToDesktop",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonSelectRole"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 268,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$selectRole",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["buttonTakeControl"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 28,
+							["w"] = 261,
+							["x"] = 2,
+							["y"] = 88,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$takeControl",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkinGameMenu",
+						},
+					},
+					["type"] = "Button",
+				},
+				["panel0"] = {
+					["children"] = {
+						["static0"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 36,
+									["w"] = 265,
+									["x"] = 0,
+									["y"] = 8,
+								},
+								["enabled"] = true,
+								["text"] = "$missionPaused",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "staticSkin",
+								},
+								["states"] = {
+									["released"] = {
+										[1] = {
+											["text"] = {
+												["color"] = "0xbccecdff",
+												["fontSize"] = 14,
+												["horzAlign"] = {
+													["type"] = "middle",
+												},
+												["lineHeight"] = 0,
+												["vertAlign"] = {
+													["type"] = "middle",
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "Static",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 50,
+							["w"] = 265,
+							["x"] = 0,
+							["y"] = 0,
+						},
+						["enabled"] = true,
+						["layout"] = {
+						},
+						["text"] = "panel0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "panelSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x2d3e50ff",
+										["insets"] = {
+											["bottom"] = 1,
+											["left"] = 2,
+											["right"] = 2,
+											["top"] = 2,
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Panel",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 463,
+					["w"] = 265,
+					["x"] = 288,
+					["y"] = 113,
+				},
+				["enabled"] = true,
+				["layout"] = {
+				},
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x00000080",
+								["center_center"] = "0x2d3e50cc",
+								["center_top"] = "0x00000080",
+								["insets"] = {
+									["bottom"] = 2,
+									["left"] = 2,
+									["right"] = 2,
+									["top"] = 2,
+								},
+								["left_bottom"] = "0x00000080",
+								["left_center"] = "0x00000080",
+								["left_top"] = "0x00000080",
+								["right_bottom"] = "0x00000080",
+								["right_center"] = "0x00000080",
+								["right_top"] = "0x00000080",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 699,
+			["w"] = 824,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 100000,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000080",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

@@ -1,0 +1,106 @@
+dialog = {
+	["children"] = {
+		["checkBoxShowNextTime"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 20,
+					["w"] = 254,
+					["x"] = 107,
+					["y"] = 241,
+				},
+				["enabled"] = true,
+				["state"] = true,
+				["tabOrder"] = 0,
+				["text"] = "checkBox",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "checkBoxSkin_options",
+				},
+			},
+			["type"] = "CheckBox",
+		},
+		["staticPicture"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 195,
+					["w"] = 439,
+					["x"] = 100,
+					["y"] = 31,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = {
+						["bottom"] = 10,
+						["top"] = 10,
+					},
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = "./dxgui/skins/skinME/images/PopupMenuesHelp.png",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+							},
+							["text"] = {
+								["blur"] = "$nil$",
+								["color"] = "$nil$",
+								["font"] = "$nil$",
+								["fontSize"] = "$nil$",
+								["horzAlign"] = "$nil$",
+								["lineHeight"] = "$nil$",
+								["shadowOffset"] = "$nil$",
+								["vertAlign"] = "$nil$",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 500,
+			["w"] = 700,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+	},
+	["type"] = "Window",
+}

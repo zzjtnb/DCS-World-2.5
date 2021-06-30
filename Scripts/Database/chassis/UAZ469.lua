@@ -1,0 +1,23 @@
+-- UAZ-469 4x4
+GT_t.CH_t.UAZ469 = {
+	life = 0.8,
+	mass = 2290,
+	length = 4.025,
+	width = 1.785,
+	max_road_velocity = 27.7778,
+	max_slope = 0.27,
+	fordingDepth = 0.7,
+	engine_power = 80,
+	max_vert_obstacle = 0.45,
+	max_acceleration = 2.925926,
+	min_turn_radius = 6.5,
+	X_gear_1 = 1.175,
+	Y_gear_1 = 0,
+	Z_gear_1 = 0.769,
+	X_gear_2 = -1.215,
+	Y_gear_2 = 0,
+	Z_gear_2 = 0.769,
+	gear_type = GT_t.GEAR_TYPES.WHEELS,
+	r_max = 0.42,
+	armour_thickness = 0.001,
+}

@@ -1,0 +1,18 @@
+Icons
+===================
+Текстура "btn-tools-01.tga"
+Размер текстуры 512х512
+Размер иконки 15х13
+===================
+Floppy Disc = {0, 204}
+System Disc1 = {15, 204}
+System Disc2 = {30, 204}
+CD Disc = {45, 204}
+Network = {60, 204}
+Opened Folder = {75, 204}
+Closed Folder = {90, 204}
+Input File = {105, 204}
+Mission File = {120, 204}
+Other File1 = {135, 204}
+Other File2 = {150, 204}
+Other File3 = {165, 204} 

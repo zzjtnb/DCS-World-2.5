@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Allocations</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+	<link rel="stylesheet" type="text/css" href="static/normalize_5.0.0/normalize.min.css"/>
+	<link rel="stylesheet" type="text/css" href="static/datatable_1.10.13/jquery.dataTables.css"/>
+
+	<script type="text/javascript" src="static/jquery_3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="static/datatable_1.10.13/jquery.dataTables.js"></script>
+	<script src="static/allocations.js"></script>
+	<script src="static/header_generator.js"></script>
+</head>
+<body>
+
+<script>
+"use strict";
+
+$.ajaxSetup({ cache: false }); // disallows caching, so information should be new
+
+$(document).ready(()=>{generate_header_links("Allocations", "header_links");});
+$(document).ready(()=>{onReady("/allocations.json");});
+</script>
+
+<div id="header_links"></div>
+
+<br>
+
+Warning! This page interferes with other tools which also uses allocations statistic.
+
+<br><br>
+
+<table>
+	<tr>
+		<td>AssertOnNew:</td>
+		<td><select id="break_on_new"></select></td>
+	</tr>
+	<tr>
+		<td>AssertOnSTL:</td>
+		<td><select id="break_on_stl"></select></td>
+	</tr>
+	<tr>
+		<td>AssertOnDelete:</td>
+		<td><select id="break_on_delete"></select></td>
+	</tr>
+	<tr>
+		<td>Threads:</td>
+		<td><select id="break_on_thread">
+			<option name="all">all</option>
+			<option name="main">main</option>
+			<option name="others">others</option>
+		</select></td>
+	</tr>
+</table>
+
+<br>
+
+<table id="allocations" class="cell-border" cellspacing="0" width="100%">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Main tread allocations</th>
+			<th>The other treads allocations</th>
+			<th>Total allocations, main/other threads</th>
+			<th>STL mem, Mb</th>
+			<th>New mem, Mb</th>
+			<th>Total mem, Mb</th>
+		</tr>
+	</thead>
+</table>
+
+</body>
+</html>

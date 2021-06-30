@@ -1,0 +1,256 @@
+dialog = {
+	["children"] = {
+		["progressBar"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 80,
+					["w"] = 802,
+					["x"] = 292,
+					["y"] = 674,
+				},
+				["enabled"] = true,
+				["range"] = {
+					["max"] = 100,
+					["min"] = 0,
+				},
+				["step"] = 1,
+				["text"] = "horzProgressBar0",
+				["tooltip"] = "",
+				["value"] = 30,
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "horzProgressBarStartDialogSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "$nil$",
+							},
+							["picture"] = {
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "HorzProgressBar",
+		},
+		["sDisclaimer"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 38,
+					["w"] = 1262,
+					["x"] = 0,
+					["y"] = 750,
+				},
+				["enabled"] = true,
+				["text"] = "$disclaimer",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+					["textWrapping"] = true,
+				},
+				["states"] = {
+					["disabled"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xe0deda47",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xe0dedaff",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["staticText"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 40,
+					["w"] = 600,
+					["x"] = 382,
+					["y"] = 650,
+				},
+				["enabled"] = true,
+				["text"] = "Bell, UH-1H Huey, emblems, logos, and body designs are trademarks of Textron Innovations Inc.\
+and are used under license by Sky Jet International LLC.",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["text"] = {
+								["color"] = "0xffffff8c",
+								["font"] = "DejaVuLGCSansCondensed.ttf",
+								["horzAlign"] = {
+									["type"] = "middle",
+								},
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 788,
+			["w"] = 1262,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+					},
+					[2] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+					},
+					[3] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+					},
+				},
+				["count"] = 3,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "",
+		["zOrder"] = 1e6,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x000000ff",
+					},
+					["picture"] = {
+						["color"] = "0xffffffff",
+						["file"] = "MissionEditor\\themes\\main\\images\\loading-window.png",
+						["horzAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+						["rect"] = {
+							["x1"] = 0,
+							["x2"] = 0,
+							["y1"] = 0,
+							["y2"] = 0,
+						},
+						["resizeToFill"] = true,
+						["resizeToFit"] = true,
+						["size"] = {
+							["horz"] = 0,
+							["vert"] = 0,
+						},
+						["userTexSampler"] = 1,
+						["vertAlign"] = {
+							["offset"] = 0,
+							["type"] = "middle",
+						},
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

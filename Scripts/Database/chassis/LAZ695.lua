@@ -1,0 +1,23 @@
+-- LAZ-695 bus
+GT_t.CH_t.LAZ695 = {
+	life = 1,
+	mass = 15000,
+	length = 9.1,
+	width = 2.5,
+	max_road_velocity = 27.7778,
+	max_slope = 0.27,
+	max_vert_obstacle = 0.3,
+	fordingDepth = 0.2,
+	engine_power = 150,
+	max_acceleration = 0.925926,
+	min_turn_radius = 10.5,
+	X_gear_1 = 2.158,
+	Y_gear_1 = 0,
+	Z_gear_1 = 1.072,
+	X_gear_2 = -2.022,
+	Y_gear_2 = 0,
+	Z_gear_2 = 1.072,
+	gear_type = GT_t.GEAR_TYPES.WHEELS,
+	r_max = 0.57,
+	armour_thickness = 0.001,
+}

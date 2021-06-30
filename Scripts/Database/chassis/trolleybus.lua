@@ -1,0 +1,23 @@
+-- trolley bus
+GT_t.CH_t.TROLLEYBUS = {
+	life = 1,
+	mass = 10100,
+	length = 9.656,
+	width = 3.589,
+	max_road_velocity = 19.4444,
+	max_slope = 0.27,
+	fordingDepth = 0.2,
+	engine_power = 140,
+	max_vert_obstacle = 1,
+	max_acceleration = 4.08497,
+	min_turn_radius = 3,
+	X_gear_1 = 2.086,
+	Y_gear_1 = 0,
+	Z_gear_1 = 1.477,
+	X_gear_2 = -2.608,
+	Y_gear_2 = 0,
+	Z_gear_2 = 1.477,
+	gear_type = GT_t.GEAR_TYPES.WHEELS,
+	r_max = 0.51,
+	armour_thickness = 0.001,
+}

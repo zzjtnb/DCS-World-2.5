@@ -1,0 +1,1597 @@
+dialog = {
+	["children"] = {
+		["bClose"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 14,
+					["w"] = 14,
+					["x"] = 376,
+					["y"] = 8,
+				},
+				["enabled"] = true,
+				["tabOrder"] = 0,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 5,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "btn_close",
+				},
+			},
+			["type"] = "Button",
+		},
+		["panel0"] = {
+			["children"] = {
+				["AIRCRAFTS"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 268,
+							["y"] = 215,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$aircraft",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin_final",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["BOMBS"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 268,
+							["y"] = 131,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$bombs",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin_final",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["BOMBS_GUIDED"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 268,
+							["y"] = 159,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$bombsGuided",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin_final",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["FUEL_TANKS"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 268,
+							["y"] = 187,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$fuelTanks",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin_final",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["MISC"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 268,
+							["y"] = 243,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$misc",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin_final",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["MISSILES_A2A"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 268,
+							["y"] = 52,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$a2aMissiles",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin_final",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["MISSILES_A2G"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 268,
+							["y"] = 79,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$a2gMissiles",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin_final",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["ROCKETS"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 120,
+							["x"] = 268,
+							["y"] = 105,
+						},
+						["enabled"] = true,
+						["state"] = false,
+						["tabOrder"] = 0,
+						["text"] = "$rockets",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "radioButtonSkin_final",
+						},
+						["states"] = {
+							["disabled"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["hover"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+								[2] = {
+									["text"] = {
+										["color"] = "0x04abe2ff",
+										["fontSize"] = 11,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "RadioButton",
+				},
+				["buttonOk"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 33,
+							["w"] = 82,
+							["x"] = 304,
+							["y"] = 579,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$ok",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "buttonSkin",
+						},
+						["states"] = {
+							["hover"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\std\\v2\\hover.png",
+									},
+								},
+							},
+							["pressed"] = {
+								[1] = {
+									["bkg"] = {
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\std\\v2\\pressed.png",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+									},
+								},
+							},
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffffff",
+										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\std\\v2\\neutral.png",
+										["insets"] = {
+											["bottom"] = "$nil$",
+											["left"] = "$nil$",
+											["right"] = "$nil$",
+											["top"] = "$nil$",
+										},
+									},
+									["picture"] = {
+										["rect"] = {
+											["x1"] = 1,
+											["x2"] = 1,
+											["y1"] = 1,
+											["y2"] = 1,
+										},
+									},
+									["text"] = {
+										["color"] = "0xffffffff",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Button",
+				},
+				["diesel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 292,
+							["y"] = 464,
+						},
+						["enabled"] = true,
+						["text"] = "1000 t",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["diesel_label"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 287,
+							["y"] = 441,
+						},
+						["enabled"] = true,
+						["text"] = "$diesel",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["gasoline"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 292,
+							["y"] = 372,
+						},
+						["enabled"] = true,
+						["text"] = "1000 t",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["gasoline_label"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 287,
+							["y"] = 349,
+						},
+						["enabled"] = true,
+						["text"] = "$gasoline",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["jet_fuel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 292,
+							["y"] = 326,
+						},
+						["enabled"] = true,
+						["text"] = "1000 t",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["jet_fuel_label"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 287,
+							["y"] = 303,
+						},
+						["enabled"] = true,
+						["text"] = "$jetFuel",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["methanol"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 292,
+							["y"] = 418,
+						},
+						["enabled"] = true,
+						["text"] = "1000  t",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+										["horzAlign"] = {
+											["offset"] = 15,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["methanol_mix_label"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 20,
+							["w"] = 100,
+							["x"] = 287,
+							["y"] = 395,
+						},
+						["enabled"] = true,
+						["text"] = "$methanolMix",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["bkgColor"] = "0x00000000",
+										["blurColor"] = "0x00000000",
+										["color"] = "0x04abe2ff",
+										["font"] = "DejaVuLGCSansCondensed.ttf",
+										["fontSize"] = 11,
+										["horzAlign"] = {
+											["offset"] = 0,
+										},
+										["lineHeight"] = 0,
+										["lineThroughColor"] = "0x00000000",
+										["lineThroughHeight"] = 1,
+										["shadowColor"] = "0x00000000",
+										["vertAlign"] = {
+											["type"] = "middle",
+										},
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+				["rc_list"] = {
+					["children"] = {
+						["GridHeaderCell1"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 103,
+									["x"] = 151,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["text"] = "$count",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 1,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["center_center"] = "0x8f929666",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x474747ff",
+												["center_center"] = "$nil$",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+												["left_bottom"] = "0x474747ff",
+												["left_center"] = "0x00000000",
+												["left_top"] = "0x00000000",
+												["right_bottom"] = "0x474747ff",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x474747ff",
+												["center_center"] = "$nil$",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+												["left_bottom"] = "0x474747ff",
+												["left_center"] = "0x00000000",
+												["left_top"] = "0x00000000",
+												["right_bottom"] = "0x474747ff",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x474747ff",
+												["center_center"] = "$nil$",
+												["insets"] = {
+													["bottom"] = 1,
+													["right"] = 0,
+												},
+												["left_bottom"] = "0x474747ff",
+												["left_center"] = "0x00000000",
+												["left_top"] = "0x00000000",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["right_bottom"] = "0x474747ff",
+												["right_center"] = "$nil$",
+												["right_top"] = "$nil$",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+						["gridHeaderCell0"] = {
+							["params"] = {
+								["bounds"] = {
+									["h"] = 30,
+									["w"] = 149,
+									["x"] = 0,
+									["y"] = 0,
+								},
+								["enabled"] = true,
+								["text"] = "$type",
+								["tooltip"] = "",
+								["visible"] = true,
+								["zindex"] = 0,
+							},
+							["skin"] = {
+								["params"] = {
+									["name"] = "gridHeaderCellSkin",
+								},
+								["states"] = {
+									["disabled"] = {
+										[1] = {
+											["bkg"] = {
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+												["fontSize"] = 12,
+											},
+										},
+									},
+									["hover"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x474747ff",
+												["center_center"] = "$nil$",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+												["left_bottom"] = "0x474747ff",
+												["left_center"] = "$nil$",
+												["left_top"] = "$nil$",
+												["right_bottom"] = "0x474747ff",
+												["right_center"] = "0x474747ff",
+												["right_top"] = "0x474747ff",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["pressed"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x474747ff",
+												["center_center"] = "$nil$",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+												["left_bottom"] = "0x474747ff",
+												["left_center"] = "0x00000000",
+												["left_top"] = "0x00000000",
+												["right_bottom"] = "0x474747ff",
+												["right_center"] = "0x474747ff",
+												["right_top"] = "0x474747ff",
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+									["released"] = {
+										[1] = {
+											["bkg"] = {
+												["center_bottom"] = "0x474747ff",
+												["center_center"] = "$nil$",
+												["insets"] = {
+													["bottom"] = 1,
+												},
+												["left_bottom"] = "0x474747ff",
+												["left_center"] = "0x00000000",
+												["left_top"] = "0x00000000",
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+												["right_bottom"] = "0x474747ff",
+												["right_center"] = "0x474747ff",
+												["right_top"] = "0x474747ff",
+											},
+											["picture"] = {
+												["rect"] = {
+													["x1"] = "$nil$",
+													["x2"] = "$nil$",
+													["y1"] = "$nil$",
+													["y2"] = "$nil$",
+												},
+											},
+											["text"] = {
+												["color"] = "0xffffffff",
+												["horzAlign"] = {
+													["offset"] = 0,
+													["type"] = "middle",
+												},
+												["vertAlign"] = {
+													["offset"] = 0,
+												},
+											},
+										},
+									},
+								},
+							},
+							["type"] = "GridHeaderCell",
+						},
+					},
+					["params"] = {
+						["bounds"] = {
+							["h"] = 595,
+							["w"] = 252,
+							["x"] = 11,
+							["y"] = 17,
+						},
+						["enabled"] = true,
+						["fixedColumns"] = 0,
+						["rows"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["headerHeight"] = 30,
+							["minSize"] = {
+								["horz"] = "$nil$",
+								["vert"] = "$nil$",
+							},
+							["name"] = "gridSkin_Multiplayer_role",
+							["rowColors"] = {
+								[1] = "0x8f929666",
+								[2] = "0x8f929666",
+							},
+							["rowHeight"] = 20,
+							["vertLineColor"] = "0x474747ff",
+						},
+						["skins"] = {
+							["header"] = {
+								["skinData"] = {
+									["states"] = {
+										["released"] = {
+											[1] = {
+												["bkg"] = {
+													["center_center"] = "$nil$",
+													["insets"] = {
+														["bottom"] = "$nil$",
+														["left"] = "$nil$",
+														["right"] = "$nil$",
+														["top"] = "$nil$",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0xffffff33",
+										["file"] = "$nil$",
+										["rect"] = {
+											["x2"] = "$nil$",
+											["y1"] = "$nil$",
+											["y2"] = "$nil$",
+										},
+									},
+									["text"] = {
+										["blur"] = 0,
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans-ExtraLight.ttf",
+										["fontSize"] = 12,
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Grid",
+				},
+				["staticCell"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 16,
+							["w"] = 100,
+							["x"] = 281,
+							["y"] = 276,
+						},
+						["enabled"] = true,
+						["text"] = "static0",
+						["tooltip"] = "",
+						["visible"] = false,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticSkin",
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["text"] = {
+										["color"] = "0xffffffff",
+										["font"] = "DejaVuLGCSans-ExtraLight.ttf",
+										["horzAlign"] = {
+											["offset"] = 5,
+										},
+										["lineHeight"] = 0,
+									},
+								},
+							},
+						},
+					},
+					["type"] = "Static",
+				},
+			},
+			["params"] = {
+				["bounds"] = {
+					["h"] = 635,
+					["w"] = 401,
+					["x"] = 0,
+					["y"] = 34,
+				},
+				["enabled"] = true,
+				["text"] = "panel0",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x858a8eff",
+								["center_center"] = "0x303031b3",
+								["center_top"] = "0x858a8eff",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x858a8eff",
+								["left_center"] = "0x858a8eff",
+								["left_top"] = "0x858a8eff",
+								["right_bottom"] = "0x858a8eff",
+								["right_center"] = "0x858a8eff",
+								["right_top"] = "0x858a8eff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Panel",
+		},
+		["sWarehouseState"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 30,
+					["w"] = 401,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["text"] = "$warehouseState",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x858a8eff",
+								["center_center"] = "0x282828d9",
+								["center_top"] = "0x858a8eff",
+								["insets"] = {
+									["bottom"] = 1,
+									["left"] = 1,
+									["right"] = 1,
+									["top"] = 1,
+								},
+								["left_bottom"] = "0x858a8eff",
+								["left_center"] = "0x858a8eff",
+								["left_top"] = "0x858a8eff",
+								["right_bottom"] = "0x858a8eff",
+								["right_center"] = "0x858a8eff",
+								["right_top"] = "0x858a8eff",
+							},
+							["text"] = {
+								["color"] = "0xfbb941ff",
+								["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+								["fontSize"] = 16,
+								["horzAlign"] = {
+									["offset"] = 11,
+								},
+								["lineHeight"] = 0,
+								["vertAlign"] = {
+									["type"] = "middle",
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 881,
+			["w"] = 701,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "$warehouseState",
+		["zOrder"] = 1,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "$nil$",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}

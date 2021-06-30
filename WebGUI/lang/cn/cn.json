@@ -1,0 +1,138 @@
+{
+    "translation": {
+        "server": {
+            "search": "搜索",
+            "settings": "设置",
+            "server": "服务器",
+            "name": "名称",
+            "password": "密码",
+            "max_players": "玩家上限",
+            "ip_address": "IP地址",
+            "port": "端口",
+            "webport": "网页端口",
+            "select_control_port": "选择控制端口",
+            "checking_status": "检查状态",
+            "detected": "检测到",
+            "not_responding": "无响应",
+            "connect": "连接",
+            "public": "公共",
+            "loading": "读取中",
+            "active": "活跃",
+            "offline": "离线",
+            "need_restart": "需要重启",
+            "integrity_check": "完整度检查",
+            "advanced_sign": "高级",
+            "change": "修改",
+            "current_mission": "当前任务",
+            "mission_time": "任务时间",
+            "red_progress": "红方进展",
+            "blue_progress": "蓝方进展",
+            "pause": "暂停",
+            "paused": "已暂停",
+            "resume": "恢复",
+            "stop": "停止",
+            "restart": "重启",
+            "start": "开始",
+            "save": "保存",
+            "cancel": "取消",
+            "integrity": {
+                "settings": "设置",
+                "require_pure_clients": "要求无修改的客户端",
+                "require_pure_models": "要求无修改的模型",
+                "require_pure_textures": "要求无修改的材质"
+            },
+            "advanced": {
+                "show_msg_in_chat": "聊天窗口中显示消息",
+                "kill": "击杀",
+                "takeoff_landing": "起飞/着陆",
+                "crash": "坠毁",
+                "ejecting": "弹射",
+                "role": "角色",
+                "allow_export_obj": "开放数据输出",
+                "allow_export_sensors": "允许传感器数据输出",
+                "allow_export_ownship": "允许玩家数据输出",
+                "allow_change_skin": "允许更换涂装",
+                "allow_change_tailno": "允许修改机身编号",
+                "start_on_command": "手动取消暂停",
+                "start_after_load": "装载后取消暂停",
+                "start_with_customers": "玩家进服则取消暂停",
+                "max_ping": "最大延迟"
+            }
+        },
+        "list_of_players": {
+            "list_of_players": "玩家列表",
+            "online": "在线",
+            "all": "全部",
+            "banned": "被禁用户",
+            "count_players": "玩家数量",
+            "enter_user_login": "输入用户账户名"
+        },
+        "chat": {
+            "chat": "聊天",
+            "your_message": "玩家消息",
+            "send": "发送"
+        },
+        "mission": {
+            "list": "列表",
+            "add_mission": "添加任务",
+            "delete_selected_missions": "删除所选任务",
+            "load_mission_list": "读取任务列表",
+            "save_mission_list": "保存任务列表",
+            "enter_list_name": "输入列表名称",
+            "add": "添加",
+            "load": "读取",
+            "save": "保存",
+            "now_running": "正在运行",
+            "run": "运行",
+            "loop": "循环",
+            "shuffle": "随机",
+            "confirm_overwrite": "确认覆盖"
+        },
+        "teams": {
+            "red": "红方",
+            "blue": "蓝方",
+            "score": "积分"
+        },
+        "observers": {
+            "observers": "观察员",
+            "observes": "观察",
+            "connects": "连接"
+        },
+        "player": {
+            "action": "操作",
+            "ban": "封禁",
+            "unban": "解禁",
+            "kick": "踢除",
+            "give_privileges": "给予权限",
+            "report_user": "举报",
+            "kick_player": "踢除玩家",
+            "ban_reason": "封禁原因",
+            "kick_reason": "踢除原因",
+            "ban_duration": "封禁时长",
+            "month": "月",
+            "week": "周",
+            "day": "天",
+            "hour": "小时",
+            "ban_forever": "永久封禁",
+            "ban_btn": "封禁",
+            "user_banned": "封禁用户"
+        },
+        "right_info_block": {
+            "completed": "完成",
+            "server_data": "服务器数据",
+            "status": "状态",
+            "time_online": "在线时长",
+            "mission": "任务"
+        },
+        "log": {
+            "log": "日志",
+            "debug": "调试",
+            "info": "信息",
+            "warning": "警告",
+            "error": "错误",
+            "error_once": "错误",
+            "search_log": "搜索日志",
+            "highlight_only": "仅显示重要部分"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+Index: MissionEditor/modules/record_avi.lua
+===================================================================
+--- MissionEditor/modules/record_avi.lua	(original)
++++ MissionEditor/modules/record_avi.lua
+@@ -48,7 +48,7 @@
+     ["1. Theora + Vorbis"]    = {encoder="THEORA", filename='%s.ogv', quality=0.75},
+     ["2. PNG sequence + WAV"] = {encoder="PNGWAV"},
+     ["3. Uncompressed AVI"]   = {encoder="RAWAVI", filename="%s.avi"},
+---    ["4. Example encoder"]       = {encoder="DLL:avcapture_example.dll;ed_test_avcapture", format="test"},
++    ["4. Example encoder"]       = {encoder="DLL:avcapture_example.dll;ed_test_avcapture", format="test"},
+ }}
+ --local start_time = 43200 -- 12:00 day 1
+ --local finish_time = 86270400 -- 12:00 day 999

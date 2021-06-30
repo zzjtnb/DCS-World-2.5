@@ -1,0 +1,537 @@
+dialog = {
+	["children"] = {
+		["autoScrollTextRadio"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 64,
+					["w"] = 237,
+					["x"] = 29,
+					["y"] = 59,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["appearDuration"] = 0,
+					["disappearDuration"] = 1,
+					["name"] = "autoScrollTextSkin",
+				},
+				["skins"] = {
+					["separator"] = {
+						["skinData"] = {
+							["params"] = {
+								["minSize"] = {
+									["vert"] = 5,
+								},
+							},
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "$nil$",
+											["center_center"] = "$nil$",
+											["center_top"] = "$nil$",
+											["insets"] = {
+												["bottom"] = "$nil$",
+												["left"] = "$nil$",
+												["right"] = "$nil$",
+												["top"] = "$nil$",
+											},
+											["left_bottom"] = "$nil$",
+											["left_center"] = "$nil$",
+											["left_top"] = "$nil$",
+											["right_bottom"] = "$nil$",
+											["right_center"] = "$nil$",
+											["right_top"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["text"] = {
+						["skinData"] = {
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_center"] = "$nil$",
+										},
+										["text"] = {
+											["color"] = "0xf5f5f4ff",
+											["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+											["fontSize"] = 12,
+											["lineHeight"] = 0,
+											["shadowColor"] = "0x000000ff",
+											["shadowOffset"] = {
+												["horz"] = 1,
+												["vert"] = 1,
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "AutoScrollText",
+		},
+		["autoScrollTextRadio_High"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 89,
+					["w"] = 246,
+					["x"] = 29,
+					["y"] = 146,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["appearDuration"] = 0,
+					["disappearDuration"] = 1,
+					["name"] = "autoScrollTextSkin",
+				},
+				["skins"] = {
+					["separator"] = {
+						["skinData"] = {
+							["params"] = {
+								["minSize"] = {
+									["vert"] = 5,
+								},
+							},
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_bottom"] = "$nil$",
+											["center_center"] = "$nil$",
+											["center_top"] = "$nil$",
+											["insets"] = {
+												["bottom"] = "$nil$",
+												["left"] = "$nil$",
+												["right"] = "$nil$",
+												["top"] = "$nil$",
+											},
+											["left_bottom"] = "$nil$",
+											["left_center"] = "$nil$",
+											["left_top"] = "$nil$",
+											["right_bottom"] = "$nil$",
+											["right_center"] = "$nil$",
+											["right_top"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["text"] = {
+						["skinData"] = {
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["bkg"] = {
+											["center_center"] = "$nil$",
+										},
+										["text"] = {
+											["color"] = "0xf5f5f4ff",
+											["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+											["fontSize"] = 20,
+											["lineHeight"] = 0,
+											["shadowColor"] = "0x000000ff",
+											["shadowOffset"] = {
+												["horz"] = 1,
+												["vert"] = 1,
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "AutoScrollText",
+		},
+		["autoScrollTextTrig"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 64,
+					["w"] = 237,
+					["x"] = 294,
+					["y"] = 59,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["appearDuration"] = 0,
+					["disappearDuration"] = 1,
+					["movingDuration"] = 0,
+					["name"] = "autoScrollTextSkin",
+					["resizeDuration"] = 0,
+				},
+				["skins"] = {
+					["separator"] = {
+						["skinData"] = {
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["text"] = {
+											["color"] = "$nil$",
+										},
+									},
+								},
+							},
+						},
+					},
+					["text"] = {
+						["skinData"] = {
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["text"] = {
+											["color"] = "0xf5f5f4ff",
+											["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+											["fontSize"] = 12,
+											["horzAlign"] = {
+												["offset"] = 10,
+											},
+											["lineHeight"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "AutoScrollText",
+		},
+		["autoScrollTextTrig_High"] = {
+			["params"] = {
+				["bounds"] = {
+					["h"] = 89,
+					["w"] = 246,
+					["x"] = 297,
+					["y"] = 147,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 1,
+			},
+			["skin"] = {
+				["params"] = {
+					["appearDuration"] = 0,
+					["disappearDuration"] = 1,
+					["movingDuration"] = 0,
+					["name"] = "autoScrollTextSkin",
+					["resizeDuration"] = 0,
+				},
+				["skins"] = {
+					["text"] = {
+						["skinData"] = {
+							["states"] = {
+								["released"] = {
+									[1] = {
+										["text"] = {
+											["color"] = "0xf5f5f4ff",
+											["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+											["fontSize"] = 20,
+											["horzAlign"] = {
+												["offset"] = 10,
+											},
+											["lineHeight"] = 0,
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "AutoScrollText",
+		},
+		["sMain"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 13,
+					["w"] = 47,
+					["x"] = 25,
+					["y"] = 3,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "main:",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x00000084",
+							},
+							["text"] = {
+								["font"] = "DejaVuLGCSansMono.ttf",
+								["lineHeight"] = 0,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sMain_High"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 61,
+					["x"] = 25,
+					["y"] = 3,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "main:",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x00000084",
+							},
+							["text"] = {
+								["font"] = "DejaVuLGCSansMono.ttf",
+								["fontSize"] = 20,
+								["lineHeight"] = 0,
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sPause"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 61,
+					["w"] = 65,
+					["x"] = 685,
+					["y"] = 9,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["picture"] = {
+								["color"] = "0xffffffff",
+								["file"] = ".\\dxgui\\skins\\skinME\\images\\pause-button.png",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sRadioAuto"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 15,
+					["w"] = 301,
+					["x"] = 78,
+					["y"] = 3,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "Static1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x00000085",
+							},
+							["text"] = {
+								["color"] = "0xe7e7e4ff",
+								["font"] = "DejaVuLGCSansMono.ttf",
+								["lineHeight"] = 0,
+								["shadowColor"] = "0x000000ff",
+								["shadowOffset"] = {
+									["horz"] = 2,
+									["vert"] = 2,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["sRadioAuto_High"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = {
+					["h"] = 28,
+					["w"] = 301,
+					["x"] = 91,
+					["y"] = 3,
+				},
+				["enabled"] = true,
+				["pivotPoint"] = {
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["text"] = "Static1",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_center"] = "0x00000085",
+							},
+							["text"] = {
+								["color"] = "0xe7e7e4ff",
+								["font"] = "DejaVuLGCSansMono.ttf",
+								["fontSize"] = 20,
+								["lineHeight"] = 0,
+								["shadowColor"] = "0x000000ff",
+								["shadowOffset"] = {
+									["horz"] = 2,
+									["vert"] = 2,
+								},
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 625,
+			["w"] = 838,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["clipResizeCursor"] = false,
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = false,
+		["layout"] = {
+			["data"] = {
+				["anchorInfos"] = {
+					[1] = {
+						["bottom"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+						["left"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["right"] = {
+							["offset"] = 0,
+							["type"] = "max",
+						},
+						["top"] = {
+							["offset"] = 0,
+							["type"] = "min",
+						},
+					},
+				},
+				["count"] = 1,
+			},
+			["type"] = "anchor",
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 10,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin",
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = {
+						["center_center"] = "0x00000000",
+					},
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}
